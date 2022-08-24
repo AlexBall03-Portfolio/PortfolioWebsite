@@ -4,8 +4,8 @@ import Header from "./Header";
 function Home() {
     return (
         <section className="Home">
-            <Header />
             <Banner />
+            <Header />
         </section>          
     );
 }

@@ -3,9 +3,9 @@ import Home from './Components/Home';
 
 function App() {
   return (
-    <main className="App">
+    <div className="App">
       <Home />
-    </main>
+    </div>
   );
 }
 
