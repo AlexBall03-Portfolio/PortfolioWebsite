@@ -1,3 +1,20 @@
+# **My Portfolio**
+## Welcome to: *My Portfolio Website*!
+### This website is made to show my work as a Web Developer / Software Engineer.
+* My GitHub: (https://github.com/AlexBall03)
+* My LinkedIn: (https://www.linkedin.com/in/alexball03/)
+
+If you have any questions or comments, please put them in the Discussions Page of this repo! I am always wanting to learn more and grow as a developer, so please let me know how I am doing and how I can improve!
+
+<br />
+<br />
+
+---
+---
+
+<br />
+<br />
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
