@@ -1,6 +1,6 @@
 # **My Portfolio**
 ## Welcome to: *My Portfolio Website*!
-### This website is made to show my work as a Web Developer / Software Engineer.
+### This website is made to show my work as a Developer.
 * My GitHub: (https://github.com/AlexBall03)
 * My LinkedIn: (https://www.linkedin.com/in/alexball03/)
 
