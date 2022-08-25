@@ -1,13 +1,13 @@
-import { BsHddStack, BsCodeSlash } from 'react-icons/bs';
+import { BsCodeSlash } from 'react-icons/bs';
 
 function Projects() {
     return (
         <div className="Projects">
-            <h2><BsCodeSlash />|My Projects</h2>
+            <h2><BsCodeSlash /> | My Projects</h2>
 
             <div className="card">
                 <div className="card-img_Container">
-                    <img src="#" alt="Project Preview Image" />
+                    <img src="#" alt="Project Preview" />
                 </div>
 
                 <header className="card_Header">

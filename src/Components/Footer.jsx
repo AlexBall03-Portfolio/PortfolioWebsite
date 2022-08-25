@@ -6,7 +6,7 @@ function Footer() {
     return (
         <footer className="Footer">
             <h2>{logo}</h2>
-            <h3>Frontend Web Developer <span>Portfolio</span></h3>
+            <h3>Developer <span>Portfolio</span></h3>
             <p>Made by <span>{logo}</span> to show my work as a Developer.</p>
             <ul className="social-links_Container">
                 <li><a href="https://www.linkedin.com/in/alexball03/"><AiOutlineLinkedin />|LinkedIn</a></li>

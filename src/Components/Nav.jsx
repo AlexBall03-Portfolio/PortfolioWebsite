@@ -1,6 +1,7 @@
 import { FaRegEnvelope } from 'react-icons/fa';
 import { AiOutlineHome, AiOutlineInfoCircle } from 'react-icons/ai';
 import { BsHddStack, BsCodeSlash } from 'react-icons/bs';
+import { FaBars } from 'react-icons/fa';
  
 function Nav() {
     const sectionTitle = "<Home>";
@@ -15,6 +16,12 @@ function Nav() {
 
             <div className="section-title_Container">
                 <h2>{sectionTitle}</h2>
+            </div>
+
+            <div className='nav-toggle_Container'>
+                <button>
+                    <FaBars />
+                </button>
             </div>
 
             <ul className='nav_Container'>

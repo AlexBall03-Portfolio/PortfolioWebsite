@@ -6,7 +6,7 @@ import { BsHddStack } from 'react-icons/bs';
 function Skills() {
     return (
         <div className="Skills">
-            <h2><BsHddStack />|My Skills</h2>
+            <h2><BsHddStack /> | My Skills</h2>
             <ul className="skill-icons_Container">
                 <li><AiOutlineHtml5 className='html_Icon' /></li>
                 <li><RiCss3Line className='css_Icon' /></li>
