@@ -21,7 +21,11 @@ body {
 }
 
 /* Headings */
-h1, h2, h3, h4 {
+h1 {
+    color: #588acb;
+}
+
+h2, h3, h4 {
     color: var(--headingClr);
 }
 
