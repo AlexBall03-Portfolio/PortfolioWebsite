@@ -3,51 +3,87 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
+
+
+
 
 /* ----- Variables ----- */
 :root {
     /* Color Scheme */
-    --siteBgClr: #151515;
-    --headingClr: #3866a2;
-    --internalLinkClr: #5996e7;
-    --textClr: #8f8f8f;
+    --transBlack: rgba(0, 0, 0, 0.753);
+    --darkGray: rgb(21, 21, 21);
+    --lightGray: rgb(157, 157, 157);
+    --darkBlue: rgb(58, 114, 189);
+    --lightBlue: rgb(64, 147, 255);
+    --blueWhite: rgb(195, 214, 228);
 }
+
+
+
 
 /* ----- Styles ----- */
-/* Backgrounds */
+/* -- Main Content -- */
+main {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/* -- Backgrounds -- */
 body {
-    background-color: var(--siteBgClr);
+    background-color: var(--darkGray);
+}
+header.Header {
+    background-color: var(--transBlack);
+}
+nav.Nav {
+    background-color: var(--transBlack);
 }
 
-/* Headings */
+
+/* -- Headings -- */
 h1 {
-    color: #588acb;
+    color: var(--lightBlue);
 }
-
 h2, h3, h4 {
-    color: var(--headingClr);
+    color: var(--darkBlue);
 }
 
+
+/* -- Links -- */
 /* Internal Links */
 a.internal-link {
     color: white;
 }
-
 /* External Links */
 a.external-link {
     color: white;
 }
 
-/* Buttons */
 
-
-/* Text */
-p {
-    color: var(--textClr);
+/* -- Buttons--  */
+button {
+    background: none;
+    border: none;
+    color: rgb(155, 191, 255);
+    transition: 0.5s;
+}
+button:hover {
+    cursor: pointer;
+    color: white;
 }
 
-/* Icons */
+
+/* -- Text -- */
+p {
+    color: var(--lightGray);
+}
+
+
+/* -- Icons -- */
 .icon {
-    color: gray;
+    color: var(--blueWhite);
 }

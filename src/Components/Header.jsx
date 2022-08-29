@@ -5,7 +5,7 @@ function Header() {
     
     return (
         <header className="Header">
-            <h1>{siteTitle}</h1>
+            <a href="/"><h1>{siteTitle}</h1></a>
         </header>
     );
 }

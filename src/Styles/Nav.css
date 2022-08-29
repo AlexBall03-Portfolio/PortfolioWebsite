@@ -5,10 +5,10 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-color: rgba(0, 0, 0, 0.752);
     backdrop-filter: blur(4px);
     padding: 5px 0;
 }
+
 
 /* Contact Button */
 .Nav .contact-btn_Container {
@@ -16,19 +16,10 @@
     justify-content: left;
     margin-left: 15px;
 }
-
 .Nav .contact-btn_Container button {
-    background: none;
-    border: none;
-    color: rgb(155, 191, 255);
     font-size: 1.2em;
-    transition: 0.5s;
 }
 
-.Nav .contact-btn_Container button:hover {
-    cursor: pointer;
-    color: white;
-}
 
 /* Page Section Title */
 .Nav .section-title_Container {
@@ -36,25 +27,17 @@
     justify-content: center;
 }
 
+
 /* Mobile Toggle Button */
 .Nav .nav-toggle_Container {
     display: flex;
     justify-content: right;
     margin-right: 15px;
 }
-
 .Nav .nav-toggle_Container button {
-    background: none;
-    border: none;
-    color: rgb(155, 191, 255);
     font-size: 1.2em;
-    transition: 0.5s;
 }
 
-.Nav .nav-toggle_Container button:hover {
-    cursor: pointer;
-    color: white;
-}
 
 /* Navigation */
 .Nav .nav_Container {
@@ -65,11 +48,9 @@
     padding-bottom: 10px;
     display: none;
 }
-
 .Nav .show-nav {
     display: block;
 }
-
 .Nav .nav_Container li {
     width: 90%;
     margin: 5px auto;
@@ -78,12 +59,10 @@
     border-radius: 5px;
     transition: 0.5s;
 }
-
 .Nav .nav_Container li:hover {
     background-color: rgba(96, 96, 96, 0.238);
     border-bottom: 1px solid rgb(0, 115, 255);
 }
-
 .Nav .nav_Container li a {
     display: block;
     text-align: left;
@@ -91,7 +70,6 @@
     font-size: 1.2em;
     transition: 0.5s;
 }
-
 .Nav .nav_Container li a:hover {
     color: rgb(177, 216, 255);
 }
