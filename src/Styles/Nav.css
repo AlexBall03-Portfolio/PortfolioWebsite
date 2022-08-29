@@ -1,0 +1,70 @@
+.Nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgba(0, 0, 0, 0.682);
+    backdrop-filter: blur(2px);
+    padding: 5px 0;
+}
+
+/* Contact Button */
+.Nav .contact-btn_Container {
+    display: flex;
+    justify-content: left;
+    margin-left: 15px;
+}
+
+.Nav .contact-btn_Container button {
+    background: none;
+    border: none;
+    color: rgb(155, 191, 255);
+    font-size: 1.2em;
+}
+
+/* Page Section Title */
+.Nav .section-title_Container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Mobile Toggle Button */
+.Nav .nav-toggle_Container {
+    display: flex;
+    justify-content: right;
+    margin-right: 15px;
+}
+
+.Nav .nav-toggle_Container button {
+    background: none;
+    border: none;
+    color: rgb(155, 191, 255);
+    font-size: 1.2em;
+}
+
+/* Navigation */
+.Nav .nav_Container {
+    grid-column: 1/4;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    display: none;
+}
+
+.Nav .show-nav {
+    display: block;
+}
+
+.Nav .nav_Container li {
+    width: 90%;
+    margin: 5px auto;
+    background-color: rgba(60, 60, 60, 0.238);
+}
+
+.Nav .nav_Container li a {
+    display: block;
+    text-align: left;
+}

@@ -2,13 +2,14 @@ import { FaRegEnvelope } from 'react-icons/fa';
 import { AiOutlineHome, AiOutlineInfoCircle } from 'react-icons/ai';
 import { BsHddStack, BsCodeSlash } from 'react-icons/bs';
 import { FaBars } from 'react-icons/fa';
+import "../Styles/Nav.css";
  
 function Nav() {
     const sectionTitle = "<Home>";
     
     return (
         <nav className="Nav">
-            <div className="contact-link_Container">
+            <div className="contact-btn_Container">
                 <button type='button'>
                     <FaRegEnvelope />
                 </button>
