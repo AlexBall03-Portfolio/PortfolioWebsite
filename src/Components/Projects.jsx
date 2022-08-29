@@ -3,7 +3,7 @@ import { BsCodeSlash } from 'react-icons/bs';
 function Projects() {
     return (
         <div className="Projects">
-            <h2><BsCodeSlash /> | My Projects</h2>
+            <h2><BsCodeSlash className='icon' /> | My Projects</h2>
 
             <div className="card">
                 <div className="card-img_Container">
@@ -22,8 +22,8 @@ function Projects() {
 
                 <footer className="card_Footer">
                     <ul className="project-view-links_Container">
-                        <li><a href="#">Live View</a></li>
-                        <li><a href="#">Source Code</a></li>
+                        <li><a href="#" className='external-link'>Live View</a></li>
+                        <li><a href="#" className='external-link'>Source Code</a></li>
                     </ul>
                 </footer>
             </div>

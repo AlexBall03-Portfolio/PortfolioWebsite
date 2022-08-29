@@ -6,26 +6,44 @@
 }
 
 /* ----- Variables ----- */
-
+:root {
+    /* Color Scheme */
+    --siteBgClr: #151515;
+    --headingClr: #3866a2;
+    --internalLinkClr: #5996e7;
+    --textClr: #8f8f8f;
+}
 
 /* ----- Styles ----- */
 /* Backgrounds */
-
+body {
+    background-color: var(--siteBgClr);
+}
 
 /* Headings */
-
+h1, h2, h3, h4 {
+    color: var(--headingClr);
+}
 
 /* Internal Links */
-
+a.internal-link {
+    color: white;
+}
 
 /* External Links */
-
+a.external-link {
+    color: white;
+}
 
 /* Buttons */
 
 
 /* Text */
-
+p {
+    color: var(--textClr);
+}
 
 /* Icons */
-
+.icon {
+    color: gray;
+}

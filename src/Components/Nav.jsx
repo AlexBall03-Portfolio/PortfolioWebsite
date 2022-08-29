@@ -25,11 +25,11 @@ function Nav() {
             </div>
 
             <ul className='nav_Container'>
-                <li><a href="#home"><AiOutlineHome /> Home</a></li>
-                <li><a href="#home"><AiOutlineInfoCircle /> About Me</a></li>
-                <li><a href="#home"><BsHddStack /> My Skills</a></li>
-                <li><a href="#home"><BsCodeSlash /> My Projects</a></li>
-                <li><a href="#home"><FaRegEnvelope /> Contact</a></li>
+                <li><a href="#home" className='internal-link'><AiOutlineHome className='icon' /> Home</a></li>
+                <li><a href="#home" className='internal-link'><AiOutlineInfoCircle className='icon' /> About Me</a></li>
+                <li><a href="#home" className='internal-link'><BsHddStack className='icon' /> My Skills</a></li>
+                <li><a href="#home" className='internal-link'><BsCodeSlash className='icon' /> My Projects</a></li>
+                <li><a href="#home" className='internal-link'><FaRegEnvelope className='icon' /> Contact</a></li>
             </ul>
         </nav>
     );
