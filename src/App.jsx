@@ -15,7 +15,7 @@ function App() {
       <Nav />
       <Landing />
 
-      <main>
+      <main className='site-content_Container'>
         <section className="about_Section">
           <About />
         </section>
