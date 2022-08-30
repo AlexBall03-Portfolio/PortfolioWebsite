@@ -18,19 +18,21 @@ function Nav() {
                 <h2>{sectionTitle}</h2>
             </div>
 
-            <div className="nav-toggle_Container">
-                <button>
+            <div className="toggle-btn_Container">
+                <button className='hamburger'>
                     <FaBars />
                 </button>
             </div>
 
-            <ul className="nav_Container">
-                <li><a href="#home" className='internal-link'><AiOutlineHome className='icon' /> Home</a></li>
-                <li><a href="#home" className='internal-link'><AiOutlineInfoCircle className='icon' /> About Me</a></li>
-                <li><a href="#home" className='internal-link'><BsHddStack className='icon' /> My Skills</a></li>
-                <li><a href="#home" className='internal-link'><BsCodeSlash className='icon' /> My Projects</a></li>
-                <li><a href="#home" className='internal-link'><FaRegEnvelope className='icon' /> Contact</a></li>
-            </ul>
+            <div className='nav_Container'>
+                <ul className="navigation">
+                    <li><a href="#home" className='internal-link'><AiOutlineHome className='icon' /> Home</a></li>
+                    <li><a href="#home" className='internal-link'><AiOutlineInfoCircle className='icon' /> About Me</a></li>
+                    <li><a href="#home" className='internal-link'><BsHddStack className='icon' /> My Skills</a></li>
+                    <li><a href="#home" className='internal-link'><BsCodeSlash className='icon' /> My Projects</a></li>
+                    <li><a href="#home" className='internal-link'><FaRegEnvelope className='icon' /> Contact</a></li>
+                </ul>
+            </div>
         </nav>
     );
 }
