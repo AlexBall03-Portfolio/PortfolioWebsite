@@ -1,3 +1,5 @@
+import "../Styles/Header.css";
+
 function Header() {
     const siteTitle = "</Alex-Ball\\>";
     

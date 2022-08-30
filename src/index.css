@@ -37,6 +37,9 @@ main.site-content_Container {
 body {
     background-color: var(--Secondary-Light-clr);
 }
+.Header {
+    background-color: var(--Secondary-Dark-clr);
+}
 
 
 /* -- Headings -- */
