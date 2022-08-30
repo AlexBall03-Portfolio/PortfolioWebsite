@@ -2,16 +2,8 @@ import { FaRegEnvelope } from 'react-icons/fa';
 import { AiOutlineHome, AiOutlineInfoCircle } from 'react-icons/ai';
 import { BsHddStack, BsCodeSlash } from 'react-icons/bs';
 import { FaBars } from 'react-icons/fa';
-import { useState } from 'react';
-import "../Styles/Nav.css";
  
 function Nav() {
-    const [navToggled, setNavToggled] = useState(false)
-
-    const ToggleNavbar = () => {
-        navToggled ? setNavToggled(false) : setNavToggled(true);
-    }
-    
     const sectionTitle = "<Home>";
 
     return (
@@ -26,13 +18,13 @@ function Nav() {
                 <h2>{sectionTitle}</h2>
             </div>
 
-            <div className='nav-toggle_Container'>
-                <button onClick={ToggleNavbar}>
+            <div className="nav-toggle_Container">
+                <button>
                     <FaBars />
                 </button>
             </div>
 
-        <ul className={`nav_Container ${navToggled ? "show-nav" : ""}`}>
+            <ul className="nav_Container">
                 <li><a href="#home" className='internal-link'><AiOutlineHome className='icon' /> Home</a></li>
                 <li><a href="#home" className='internal-link'><AiOutlineInfoCircle className='icon' /> About Me</a></li>
                 <li><a href="#home" className='internal-link'><BsHddStack className='icon' /> My Skills</a></li>

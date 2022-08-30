@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
 }
 
 
@@ -12,78 +13,47 @@
 /* ----- Variables ----- */
 :root {
     /* Color Scheme */
-    --transBlack: rgba(0, 0, 0, 0.753);
-    --darkGray: rgb(21, 21, 21);
-    --lightGray: rgb(157, 157, 157);
-    --darkBlue: rgb(58, 114, 189);
-    --lightBlue: rgb(64, 147, 255);
-    --blueWhite: rgb(195, 214, 228);
+    --Background-Gradient-1: linear-gradient(to bottom, #2c3e50, #bdc3c7); /* Grade Grey */
+    --Background-Gradient-2: linear-gradient(to bottom, #000000, #434343); /* Deep Space */
+    --Background-Gradient-3: linear-gradient(to bottom, #232526, #414345); /* Midnight City */
+    --Primary-Light-clr: #bdc3c7;
+    --Primary-Dark-clr: #2c3e50;
+    --Accent-Light-clr: #6aa3e8;
+    --Accent-Dark-clr: #1e2e53;
+    --Text-Light-clr: #dde4e9;
+    --Text-Dark-clr: #1a1b1c;
 }
 
 
 
 
 /* ----- Styles ----- */
-/* -- Main Content -- */
-main {
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-}
+/* -- Centralize Content -- */
+
 
 
 /* -- Backgrounds -- */
-body {
-    background-color: var(--darkGray);
-}
-header.Header {
-    background-color: var(--transBlack);
-}
-nav.Nav {
-    background-color: var(--transBlack);
-}
+
 
 
 /* -- Headings -- */
-h1 {
-    color: var(--lightBlue);
-}
-h2, h3, h4 {
-    color: var(--darkBlue);
-}
 
 
-/* -- Links -- */
+
 /* Internal Links */
-a.internal-link {
-    color: white;
-}
+
+
+
 /* External Links */
-a.external-link {
-    color: white;
-}
+
 
 
 /* -- Buttons--  */
-button {
-    background: none;
-    border: none;
-    color: rgb(155, 191, 255);
-    transition: 0.5s;
-}
-button:hover {
-    cursor: pointer;
-    color: white;
-}
+
 
 
 /* -- Text -- */
-p {
-    color: var(--lightGray);
-}
+
 
 
 /* -- Icons -- */
-.icon {
-    color: var(--blueWhite);
-}
