@@ -14,7 +14,8 @@
 :root {
     /* Color Scheme */
     --Primary-clr: #000000;
-    --Secondary-clr: #E7E7E7;
+    --Secondary-Light-clr: #E7E7E7;
+    --Secondary-Dark-clr: #c4c2c2;
     --Accent-clr: #4a4a4a;
     --Text-clr: #000000;
 }
@@ -28,17 +29,16 @@ main.site-content_Container {
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
 }
 
 
 /* -- Backgrounds -- */
 body {
-    background-color: var(--Secondary-clr);
-    width: 1600px;
-    max-width: 100%;
-    height: 100vh;
-    margin: 0 auto;
+    background-color: var(--Secondary-Light-clr);
+}
+.Header {
+    background-color: var(--Secondary-Dark-clr);
 }
 
 
