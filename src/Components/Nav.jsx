@@ -1,30 +1,11 @@
 import { FaRegEnvelope } from 'react-icons/fa';
 import { AiOutlineHome, AiOutlineInfoCircle } from 'react-icons/ai';
 import { BsHddStack, BsCodeSlash } from 'react-icons/bs';
-import { FaBars } from 'react-icons/fa';
-import "../Styles/Nav.css";
+import { GiPaperPlane } from "react-icons/gi";
  
 function Nav() {
-    const sectionTitle = "<Home>";
-
     return (
         <nav className="Nav">
-            <div className="contact-btn_Container">
-                <button className='contact-btn' type='button'>
-                    <FaRegEnvelope />
-                </button>
-            </div>
-
-            <div className="section-title_Container">
-                <h2 className='section-title'>{sectionTitle}</h2>
-            </div>
-
-            <div className="toggle-btn_Container">
-                <button className='toggle-btn' type='button'>
-                    <FaBars />
-                </button>
-            </div>
-
             <div className='nav_Container'>
                 <ul className="nav_List">
                     <li><a href="#home" className='internal-link'><AiOutlineHome className='icon' /> Home</a></li>
@@ -33,6 +14,7 @@ function Nav() {
                     <li><a href="#projects" className='internal-link'><BsCodeSlash className='icon' /> My Projects</a></li>
                     <li><a href="#contact" className='internal-link'><FaRegEnvelope className='icon' /> Contact</a></li>
                 </ul>
+                <a className='hire-me_Link'><GiPaperPlane /> Hire Me</a>
             </div>
         </nav>
     );

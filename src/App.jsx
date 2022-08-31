@@ -1,7 +1,6 @@
 import './App.css';
+import SideBar from './Components/SideBar';
 import Landing from './Components/Landing';
-import Header from './Components/Header';
-import Nav from './Components/Nav';
 import About from './Components/About';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
@@ -11,8 +10,7 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Nav />
+      <SideBar />
       <Landing />
 
       <main className='site-content_Container'>
