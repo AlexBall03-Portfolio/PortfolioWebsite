@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 
+
+
 /* ----- RESETS ----- */
 * {
     box-sizing: border-box;
@@ -12,21 +14,47 @@
 }
 
 
+
+
 /* ----- VARIABLES ----- */
+:root {
+    /* Color Scheme */
+    --primary-clr: rgb(146, 163, 182);
+    --secondary-100-clr: rgb(1, 12, 21);
+    --secondary-200-clr: rgb(0, 0, 0);
+    --text-clr: rgb(200, 200, 200);
+    --accent-clr: rgb(70, 131, 206);
+}
+
 
 
 
 /* ----- GLOBAL STYLES ----- */
+body {
+    background-color: var(--secondary-100-clr);
+    margin-left: 280px;
+    height: 100vh;
+}
+
+/* Headings */
+h1,h2,h3,h4 {
+    color: var(--primary-clr);
+}
+
+/* Links */
 a {
     text-decoration: none;
 }
+/* Text */
 p {
     color: var(--text-clr);
 }
-
+/* Horizontle Rules */
 hr {
     border: thin solid rgb(33, 33, 33);
 }
+
+
 
 
 /* ----- MEDIA QUERIES ----- */
