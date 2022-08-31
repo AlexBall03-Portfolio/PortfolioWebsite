@@ -5,7 +5,7 @@ function Footer() {
     
     return (
         <footer className="Footer">
-            <h2>{logo}</h2>
+            <a href="/"><h2>{logo}</h2></a>
             <h3>Developer <span>Portfolio</span></h3>
             <p>Made by <span>{logo}</span> to show my work as a Developer.</p>
             <ul className="social-links_Container">

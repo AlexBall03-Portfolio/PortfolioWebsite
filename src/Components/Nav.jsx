@@ -14,7 +14,9 @@ function Nav() {
                     <li><a href="#projects" className='internal-link'><BsCodeSlash className='icon' /> My Projects</a></li>
                     <li><a href="#contact" className='internal-link'><FaRegEnvelope className='icon' /> Contact</a></li>
                 </ul>
-                <a className='hire-me_Link'><GiPaperPlane /> Hire Me</a>
+                <div className='hire-me-link_Container'>
+                    <a href="#about" className='hire-me_Link'><GiPaperPlane /> Hire Me</a>
+                </div>
             </div>
         </nav>
     );

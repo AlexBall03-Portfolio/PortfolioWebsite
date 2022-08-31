@@ -1,0 +1,141 @@
+/* ----- <SideBar /> ----- */
+.SideBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 280px;
+    z-index: 1;
+    background-color: var(--secondary-200-clr);
+}
+.SideBar .sidebar_Container {
+    display: block;
+    padding: 25px 16px;
+}
+
+
+
+
+/* ----- <Header /> ----- */
+.SideBar .Header {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* Logo */
+.SideBar .Header h1 {
+    font-size: 1.8em;
+    color: var(--primary-clr);
+}
+/* Profile Image */
+.SideBar .Header .profile-img_Section {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+.SideBar .Header .profile-img_Section .profile-img_Container {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SideBar .Header .profile-img_Section .profile-img_Container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+/* Greeting */
+.SideBar .Header .greeting_Section {
+    margin: 0 10px;
+}
+.SideBar .Header .greeting_Section .greeting_Container {
+    text-align: center;
+}
+.SideBar .Header .greeting_Section .greeting_Container p {
+    font-size: 0.8em;
+}
+.SideBar .Header .greeting_Section .greeting_Container p span {
+    font-weight: bold;
+}
+
+
+
+
+/* ----- <Nav /> ----- */
+.SideBar .Nav {
+    width: 100%;
+    margin: 10px 0;
+}
+.SideBar .Nav .nav_Container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.SideBar .Nav .nav_Container .nav_List {
+    text-align: left;
+    position: relative;
+}
+.SideBar .Nav .nav_Container .nav_List li a {
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: rgb(181, 181, 181);
+    transition: 1s;
+}
+.SideBar .Nav .nav_Container .nav_List li a:hover {
+    color: rgb(255, 255, 255);
+}
+.SideBar .Nav .nav_Container .hire-me-link_Container {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+.SideBar .Nav .nav_Container .hire-me-link_Container a {
+    border-radius: 10px;
+    background-color: rgb(181, 181, 181);
+    color: rgb(24, 24, 24);
+    padding: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: 1s;
+}
+.SideBar .Nav .nav_Container .hire-me-link_Container a:hover {
+    background-color: rgb(24, 24, 24);
+    color: rgb(181, 181, 181);
+}
+
+
+
+
+/* <SidebarFooter /> */
+.SideBar .SidebarFooter {
+    width: 100%;
+    height: fit-content;
+    margin: 20px 0;
+}
+.SideBar .SidebarFooter .sidebar-footer_Container {
+    height: 100%;
+    text-align: center;
+}
+.SideBar .SidebarFooter .sidebar-footer_Container .social-links_List {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.SideBar .SidebarFooter .sidebar-footer_Container .social-links_List a {
+    font-size: 2em;
+    color: rgb(181, 181, 181);
+    transition: 1s;
+}
+.SideBar .SidebarFooter .sidebar-footer_Container .social-links_List a:hover {
+    color: rgb(255, 255, 255);
+}

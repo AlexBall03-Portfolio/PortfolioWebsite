@@ -1,0 +1,14 @@
+/* ----- VARIABLES ----- */
+:root {
+    --primary-clr: rgb(243, 243, 243);
+    --secondary-100-clr: rgb(33, 33, 33);
+    --secondary-200-clr: rgb(41, 41, 41);
+    --text-clr: rgb(157, 155, 155);
+}
+
+/* STYLES */
+body {
+    background-color: var(--secondary-100-clr);
+    margin-left: 280px;
+    height: 100vh;
+}
