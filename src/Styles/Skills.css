@@ -1,0 +1,49 @@
+.Skills {
+    width: 100%;
+    background-color: var(--secondary-200-clr);
+    border: 2px inset var(--secondary-200-clr);
+}
+.Skills .skills_Container {
+    max-width: 90%;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 60px 0;
+    text-align: right;
+}
+
+/* Heading */
+.Skills .skills_Container header {
+    padding-bottom: 40px;
+}
+.Skills .skills_Container header h2 {
+    font-size: 1.8em;
+}
+
+/* Main */
+.Skills .skills_Container main .skill-icons_Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.Skills .skills_Container main .skill-icons_Container .icon {
+    font-size: 4em;
+    transition: 2s;
+}
+.Skills .skills_Container main .skill-icons_Container .icon:hover {
+    position: relative;
+    top: -2px;
+    cursor: pointer;
+}
+.Skills .skills_Container main .skill-icons_Container .html_Icon {
+    color: #E34C26;
+}
+.Skills .skills_Container main .skill-icons_Container .css_Icon {
+    color: #264de4;
+}
+.Skills .skills_Container main .skill-icons_Container .js_Icon {
+    color: #F0DB4F;
+}
+.Skills .skills_Container main .skill-icons_Container .react_Icon {
+    color: #61DBFB;
+}

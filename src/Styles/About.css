@@ -5,7 +5,7 @@
     max-width: 90%;
     width: 1100px;
     margin: 0 auto;
-    padding: 30px 0;
+    padding: 60px 0;
 }
 
 /* Heading */
@@ -38,6 +38,6 @@
 }
 
 /* Main */
-.About .about_Container main {
-    text-align: justify;
+.About .about_Container main p {
+    line-height: 25px;
 }
