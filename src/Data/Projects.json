@@ -2,8 +2,8 @@
     {
         "id": 1,
         "imgSrc": "images/PortfolioBanner.jpg",
-        "Title": "Portfolio Website",
-        "Description": "Portfolio website to show my work as a Web Developer, hoping that I'll get a job",
+        "Title": "Project Name",
+        "Description": "Project Description",
         "LiveViewURL": "#",
         "SourceCodeURL": "https://github.com/AlexBall03/PortfolioWebsite"
     },
