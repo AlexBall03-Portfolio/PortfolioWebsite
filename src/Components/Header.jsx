@@ -17,7 +17,7 @@ function Header() {
             </section>
             <section className="greeting_Section">
                 <div className="greeting_Container">
-                    <p>Hello, my name is <span>Alex</span> and I am a <span>Frontend Web Developer</span>. <br /> Welcome to my <span>Portfolio</span> Website!</p>
+                    <p>Hello, my name is Alex and I am a Frontend Web Developer. Welcome to my Portfolio Website!</p>
                 </div>
             </section>
         </header>
