@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "imgSrc": "images/PortfolioBanner.jpg",
+        "Title": "Portfolio Website",
+        "Description": "Portfolio website to show my work as a Web Developer, hoping that I'll get a job",
+        "LiveViewURL": "#",
+        "SourceCodeURL": "https://github.com/AlexBall03/PortfolioWebsite"
+    },
+    {
+        "id": 2,
+        "imgSrc": "images/PortfolioBanner.jpg",
+        "Title": "Project Name",
+        "Description": "Project Description",
+        "LiveViewURL": "#",
+        "SourceCodeURL": "#"
+    },  
+    {
+        "id": 3,
+        "imgSrc": "images/PortfolioBanner.jpg",
+        "Title": "Project Name",
+        "Description": "Project Description",
+        "LiveViewURL": "#",
+        "SourceCodeURL": "#"
+    },
+    {
+        "id": 4,
+        "imgSrc": "images/PortfolioBanner.jpg",
+        "Title": "Project Name",
+        "Description": "Project Description",
+        "LiveViewURL": "#",
+        "SourceCodeURL": "#"
+    },
+    {
+        "id": 5,
+        "imgSrc": "images/PortfolioBanner.jpg",
+        "Title": "Project Name",
+        "Description": "Project Description",
+        "LiveViewURL": "#",
+        "SourceCodeURL": "#"
+    },
+    {
+        "id": 6,
+        "imgSrc": "images/PortfolioBanner.jpg",
+        "Title": "Project Name",
+        "Description": "Project Description",
+        "LiveViewURL": "#",
+        "SourceCodeURL": "#"
+    }
+]
