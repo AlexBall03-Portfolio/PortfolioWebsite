@@ -25,11 +25,6 @@
     text-align: center;
     margin-bottom: 30px;
 }
-/* Logo */
-.SideBar .Header h1 {
-    font-size: 1.8em;
-    color: var(--primary-clr);
-}
 /* Profile Image */
 .SideBar .Header .profile-img_Section {
     display: flex;
@@ -90,7 +85,7 @@
     font-weight: bold;
     font-size: 1.1em;
     color: var(--text-clr);
-    transition: 1s;
+    transition: 0.2s;
 }
 .SideBar .Nav .nav_Container .nav_List li a:hover {
     color: var(--primary-clr);
@@ -107,11 +102,12 @@
     border-radius: 4px;
     font-size: 1.1em;
     font-weight: bold;
-    transition: 1s;
+    transition: 0.2s;
 }
 .SideBar .Nav .nav_Container .hire-me-link_Container a:hover {
-    background-color: rgb(24, 24, 24);
+    background-color: var(--tertiary-clr);
     color: var(--primary-clr);
+    border: 1px solid var(--accent-clr);
 }
 
 

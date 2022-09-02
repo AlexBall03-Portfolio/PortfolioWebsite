@@ -41,7 +41,11 @@ body {
 }
 
 /* Headings */
-h1,h2,h3,h4 {
+h1,h2 {
+    color: var(--primary-clr);
+    font-size: 1.8em;
+}
+h3 {
     color: var(--primary-clr);
 }
 
@@ -49,6 +53,19 @@ h1,h2,h3,h4 {
 a {
     text-decoration: none;
 }
+a.internal-link {
+    color: var(--text-clr);
+}
+a.internal-link:hover {
+    color: var(--primary-clr);
+}
+a.external-link {
+    color: var(--accent-clr);
+}
+a.external-link:hover {
+    color: var(--primary-clr);
+}
+
 /* Text */
 p {
     color: var(--text-clr);

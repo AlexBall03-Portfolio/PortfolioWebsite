@@ -1,0 +1,30 @@
+.Footer {
+    width: 100%;
+}
+.Footer .footer_Container {
+    max-width: 90%;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.Footer .footer_Container .heading_Section,
+.Footer .footer_Container .site-developer_Section {
+    margin-bottom: 20px;
+}
+
+.Footer .footer_Container .social-links_Section ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Footer .footer_Container .social-links_Section ul a {
+    color: var(--accent-clr);
+    transition: 0.2s;
+}
+.Footer .footer_Container .social-links_Section ul a:hover {
+    color: var(--primary-clr);
+}
