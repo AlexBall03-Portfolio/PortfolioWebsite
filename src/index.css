@@ -28,7 +28,6 @@
     --border: 1px solid var(--accent-clr);
     --shadow-right: 1px 0 10px var(--accent-clr);
     --shadow-bottom: 0 1px 10px var(--accent-clr);
-    --shadow-top: 0 -1px 10px var(--accent-clr);
 }
 
 

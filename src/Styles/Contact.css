@@ -1,0 +1,82 @@
+.Contact {
+    width: 100%;
+    background-color: var(--secondary-200-clr);
+    border: 2px inset var(--secondary-200-clr);
+}
+.Contact .contact_Container {
+    max-width: 90%;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* Heading */
+.Contact .heading_Section {
+    padding-bottom: 40px;
+}
+.Contact .heading_Section h2 {
+    font-size: 1.8em;
+}
+
+/* Form */
+.Contact .form_Section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Contact form {
+    width: 500px;
+    text-align: center;
+}
+.Contact form .input-group {
+    margin-bottom: 30px;   
+    position: relative;
+}
+.Contact form input, .Contact form textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid var(--accent-clr);
+    color: var(--primary-clr);
+    background: transparent;
+    font-size: 15px;
+    resize: none;
+}
+.Contact form input:focus~label,
+.Contact form input:valid~label,
+.Contact form textarea:focus~label,
+.Contact form textarea:valid~label {
+    top: -35px;
+    font-size: 14px;
+}
+.Contact form input:focus,
+.Contact form textarea:focus {
+    border-color: var(--primary-clr);
+}
+.Contact form label {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: var(--accent-clr);
+    transition: 0.2s;
+    cursor: text;
+}
+.Contact form button {
+    padding: 8px 15px;
+    color: var(--accent-clr);
+    outline: none;
+    background: transparent;
+    border: 1px solid var(--accent-clr);
+    cursor: pointer;
+    width: 50%;
+    font-size: 1.1em;
+    transition: 0.2s;
+}
+.Contact form button:hover {
+    background-color: var(--accent-clr);
+    color: var(--secondary-200-clr);
+    font-weight: bold;
+}

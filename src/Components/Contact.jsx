@@ -1,15 +1,33 @@
-import { FaRegEnvelope } from 'react-icons/fa';
+import { FaRegEnvelope, FaRegUser, FaRegComments } from 'react-icons/fa';
+import { GiPaperPlane } from 'react-icons/gi';
+import "../Styles/Contact.css";
 
 function Contact() {
     return (
         <div className="Contact">
-            <h2><FaRegEnvelope className='icon' /> | Contact Me</h2>
-            <form>
-                <input type="text" name="name" id="sender-name" placeholder="Your name..."/>
-                <input type="email" name="email" id="sender-email" placeholder="Your email..."/>
-                <textarea name="message" id="sender-message" cols="30" rows="5" placeholder="Your message..." />
-                <button type="submit">Send</button>
-            </form>
+            <div className="contact_Container">
+                <section className='heading_Section'>
+                    <h2><FaRegEnvelope className='icon' /> | Contact Me | <GiPaperPlane /> </h2>
+                </section>
+
+                <section className='form_Section'>
+                    <form className='contact_Form'>
+                        <div className='input-group'>
+                            <input type="text" id='name' name='sender-name' required />
+                            <label htmlFor="name"><FaRegUser /> Your Name*</label>
+                        </div>
+                        <div className='input-group'>
+                            <input type="email" id='email' name='sender-email' required />
+                            <label htmlFor="email"><FaRegEnvelope /> Your Email*</label>
+                        </div>
+                        <div className='input-group'>
+                            <textarea name="sender-message" id="message" rows="8" required></textarea>
+                            <label htmlFor="message"><FaRegComments /> Your Message*</label>
+                        </div>
+                        <button type='submit'>Send <GiPaperPlane /></button>
+                    </form>
+                </section>
+            </div>
         </div>
     );
 }

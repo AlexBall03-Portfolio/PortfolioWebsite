@@ -29,13 +29,16 @@
     width: 100%;
     background-color: var(--tertiary-clr);
     border-radius: 10px;
+    box-shadow: 2px 2px 20px var(--accent-clr);
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    padding: 10px;
 }
 .Projects .projects_Container .card-galery_Section .card:hover {
     position: relative;
     top: -5px;
+    box-shadow: 4px 10px 10px var(--accent-clr);
 }
 /* Image */
 .Projects .projects_Container .card-galery_Section .card .card-img_Container {

@@ -9,7 +9,7 @@ function Skills() {
         <div className="Skills">
             <div className="skills_Container">
                 <header className='section_Header'>
-                    <h2><BsHddStack className='icon' /> | My Skills</h2>
+                    <h2>My Skills | <BsHddStack className='icon' /></h2>
                 </header>
 
                 <main className='section_Main'>

@@ -19,7 +19,8 @@
 }
 .Landing .landing_Container .banner img {
     width: 100%;
-    height: 100%; 
+    height: 100%;
+    object-fit: cover;
 }
 /* Image Overlay */
 .Landing .landing_Container .banner .img-overlay {
@@ -29,6 +30,7 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.448);
+    cursor: text;
 }
 
 
