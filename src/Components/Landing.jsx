@@ -13,6 +13,10 @@ function Landing() {
                 <div className="banner-text_Container">
                     <h2>Alex Ball</h2>
                     <h3>Frontend Web Developer</h3>
+                    <br />
+                    <div className="projects-btn_Container">
+                        <a href="#projects" className="internal-link button">Projects</a>
+                    </div>
                 </div>
             </div>
         </div>

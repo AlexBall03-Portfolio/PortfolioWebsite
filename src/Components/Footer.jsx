@@ -1,4 +1,5 @@
 import { AiOutlineLinkedin, AiOutlineGithub } from 'react-icons/ai';
+import { FaRegEnvelope } from 'react-icons/fa';
 import "../Styles/Footer.css";
 
 function Footer() {
@@ -11,6 +12,9 @@ function Footer() {
                 <section className='heading_Section'>
                     <h2>{logo}</h2>
                     <h3>Developer <span>Portfolio</span></h3>
+                    <div className='email_Container'>
+                        <a href="mailto:portfolio.alexball@gmail.com" rel='noreferrer' target="_blank">portfolio.alexball@gmail.com</a>
+                    </div>
                 </section>
 
                 <section className='site-developer_Section'>

@@ -34,8 +34,8 @@
 }
 .Projects .projects_Container .card-galery_Section .card:hover {
     position: relative;
-    top: -5px;
-    box-shadow: 4px 10px 10px var(--accent-clr);
+    top: -2px;
+    box-shadow: 4px 10px 20px var(--accent-clr);
 }
 /* Image */
 .Projects .projects_Container .card-galery_Section .card .card-img_Container {

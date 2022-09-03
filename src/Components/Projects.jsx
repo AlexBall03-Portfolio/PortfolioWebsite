@@ -32,8 +32,8 @@ function Projects() {
 
                                     <footer className="card_Footer">
                                         <ul className="project-view-links_Container">
-                                            <li><a href={data.LiveViewURL} className='external-link button' target="_blank">Live View</a></li>
-                                            <li><a href={data.SourceCodeURL} className='external-link button' target="_blank">Source Code</a></li>
+                                            <li><a href={data.LiveViewURL} className='external-link button' rel='noreferrer' target="_blank">Live View</a></li>
+                                            <li><a href={data.SourceCodeURL} className='external-link button' rel='noreferrer' target="_blank">Source Code</a></li>
                                         </ul>
                                     </footer>
                                 </div>

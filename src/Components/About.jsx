@@ -13,7 +13,12 @@ function About() {
                     <img src={ProfileImage} alt="Alex Ball" />
                 </div>
                 <main className='section_Main'>
-                    <p>Hello, my name is Alex and I love programming. I started learning Web Development early 2020, but, after 1.5 years in, I switched to wanting to do Software Developement instead, so I was (slowly) trying to find the best rought in that field. At the time I was working for a compony called VirTra (whis is a GREAT compony to work for by the way) as a Manufacturing Shop Assistant. Their software departpemt primarily uses C#, so that is what I started learning. But I came to the realization that I need to go back to Web Development so that I can get a job as a developer, then if I want to change later, I can. So I started to refresh what I had learned in the past and push forward, building my Portfolio Website. I currently don't have a lot of projects to show on this website, but I am hopping with this and what I start working on next will help me get a job anyway.</p>
+                    <p>My name is Alex, and I love programming. I am very much a perfectionist and have a decent amount of attention to detail, so I like things to be as perfect as possible both within the UI/UX and the code, or it will drive me insane!</p>
+                    <br />
+                    <p>My current Tech Stack is: HTML, CSS, JS, React.js and Git/GitHub 
+                    I also know a very basic amount of C/C++ and C#/.Net (along with the very basics of how compilers work).</p>
+                    <br />
+                    <p>I love learning new things and am willing to learn whatever is needed to get the job done!</p> 
                 </main>
             </div>
         </div>

@@ -13,6 +13,15 @@
 .Footer .footer_Container .site-developer_Section {
     margin-bottom: 20px;
 }
+.Footer .footer_Container .heading_Section .email_Container {
+    margin-top: 3px;
+}
+.Footer .footer_Container .heading_Section a {
+    color: var(--accent-clr);
+}
+.Footer .footer_Container .heading_Section a:hover {
+    color: var(--primary-clr);
+}
 
 .Footer .footer_Container .social-links_Section ul {
     display: flex;
