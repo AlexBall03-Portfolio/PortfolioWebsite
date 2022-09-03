@@ -95,3 +95,25 @@ hr {
 
 
 /* ----- MEDIA QUERIES ----- */
+@media all and (max-width: 1550px) {
+    /* Body */
+    body {
+        margin-left: 250px;
+    }
+    
+    /* Headings */
+    h1,h2 {
+        color: var(--primary-clr);
+        font-size: 1.5em;
+    }
+
+    /* Text */
+    p {
+        font-size: 0.9em;
+    }
+
+    /* Buttons */
+    a.button {
+        font-size: 1em;
+    }
+}

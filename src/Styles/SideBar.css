@@ -123,3 +123,24 @@
 .SideBar .SidebarFooter .sidebar-footer_Container .social-links_List a:hover {
     color: var(--primary-clr);
 }
+
+
+
+
+/* Media Queries */
+@media all and (max-width: 1550px) {
+    /* ----- <SideBar /> ----- */
+    .SideBar {
+        width: 250px;
+    }
+    /* Profile Img */
+    .SideBar .Header .profile-img_Section .profile-img_Container {
+        width: 130px;
+        height: 130px;
+    }
+
+    /* Nav Links */
+    .SideBar .Nav .nav_Container .nav_List li a {
+        font-size: 1em;
+    }
+}

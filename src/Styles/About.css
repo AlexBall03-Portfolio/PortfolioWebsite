@@ -15,8 +15,8 @@
 
 /* Profile Image */
 .About .about_Container .profile-img_Container {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     border-radius: 100%;
     border: 2px solid var(--accent-clr);
     background-color: gray;

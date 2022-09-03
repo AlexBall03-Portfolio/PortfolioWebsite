@@ -44,3 +44,13 @@
 .Skills .skills_Container main .skill-icons_Container .react_Icon {
     color: #61DBFB;
 }
+
+
+
+
+/* Media Queries */
+@media all and (max-width: 1550px) {
+    .Skills .skills_Container main .skill-icons_Container .icon {
+        font-size: 3em;
+    }
+}
