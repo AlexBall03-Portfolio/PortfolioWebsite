@@ -6,6 +6,7 @@ import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
+import ToTopBtn from './Components/ToToBtn';
 
 function App() {
   return (
@@ -32,6 +33,10 @@ function App() {
       </main>
 
       <Footer />
+
+      <section className='to-top-btn_Section'>
+        <ToTopBtn />
+      </section>
     </div>
   );
 }
