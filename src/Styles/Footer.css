@@ -18,6 +18,7 @@
 }
 .Footer .footer_Container .heading_Section a {
     color: var(--accent-clr);
+    transition: 0.2s;
 }
 .Footer .footer_Container .heading_Section a:hover {
     color: var(--primary-clr);
