@@ -25,7 +25,6 @@
 }
 .Skills .skills_Container main .skill-icons_Container .icon {
     font-size: 4em;
-    transition: 2s;
 }
 .Skills .skills_Container main .skill-icons_Container .icon:hover {
     position: relative;
