@@ -4,7 +4,7 @@ import ProjectData from "../Data/Projects.json";
 
 function Projects() {
     return (
-        <div className="Projects">
+        <div className="Projects" id='projects'>
             <div className="projects_Container">
                 <section className='heading_Section'>
                     <h2><BsCodeSlash className='icon' /> | My Projects</h2>

@@ -54,10 +54,14 @@ a {
     text-decoration: none;
 }
 a.internal-link {
+    cursor: pointer;
     color: var(--text-clr);
     transition: 0.2s;
 }
 a.internal-link:hover {
+    color: var(--primary-clr);
+}
+.active {
     color: var(--primary-clr);
 }
 a.external-link {

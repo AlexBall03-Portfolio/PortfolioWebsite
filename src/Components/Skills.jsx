@@ -6,7 +6,7 @@ import "../Styles/Skills.css";
 
 function Skills() {
     return (
-        <div className="Skills">
+        <div className="Skills" id='skills'>
             <div className="skills_Container">
                 <header className='section_Header'>
                     <h2>My Skills | <BsHddStack className='icon' /></h2>

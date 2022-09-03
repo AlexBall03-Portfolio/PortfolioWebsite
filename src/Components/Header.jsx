@@ -1,4 +1,5 @@
 import Picture from "../Assets/MyProfilePic.jpeg";
+import { Link } from "react-scroll";
 
 function Header() {
     const siteTitle = "</Alex-Ball\\>";
@@ -7,7 +8,7 @@ function Header() {
         <header className="Header">
             <section className="logo_Section">
                 <div className="logo_Container">
-                    <a href="/"><h1>{siteTitle}</h1></a>
+                    <Link to='home' spy={true} smooth={true} duration={500} href="/"><h1>{siteTitle}</h1></Link>
                 </div>
             </section>
             <section className="profile-img_Section">
