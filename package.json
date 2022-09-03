@@ -1,7 +1,7 @@
 {
   "name": "portfolio-website",
   "version": "0.1.0",
-  "homepage": "http://alexballportfolio.dev",
+  "homepage": "https://alexballportfolio.dev/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
