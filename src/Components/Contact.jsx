@@ -25,7 +25,7 @@ function Contact() {
 
     // JSX Template
     return (
-        <div className="Contact" id='contact'>
+        <div name='contact' className="Contact">
             <div className="contact_Container">
                 <section className='heading_Section'>
                     <h2><FaRegEnvelope className='icon' /> | Contact Me | <GiPaperPlane /> </h2>

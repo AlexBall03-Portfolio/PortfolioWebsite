@@ -4,7 +4,7 @@ import "../Styles/About.css";
 
 function About() {
     return ( 
-        <div className="About" id="about">
+        <div name='about' className="About">
             <div className='about_Container'>
                 <header className='section_Header'>
                     <h2><AiOutlineInfoCircle className='icon' /> | About Me</h2>

@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 function Landing() {
     return (
-        <div className="Landing" id="home">
+        <div name='home' className="Landing">
             <div className="landing_Container">
                 <div className="banner">
                     <img src={Banner} alt="" />
