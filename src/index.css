@@ -23,7 +23,7 @@
     --secondary-100-clr: #081929;
     --secondary-200-clr: #05101a;
     --tertiary-clr: rgb(0, 0, 0);
-    --text-clr: rgb(200, 200, 200);
+    --text-clr: #c8c8c8;
     --accent-clr: #7dbfe8;
     --border: 1px solid var(--accent-clr);
     --shadow-right: 1px 0 10px var(--accent-clr);
@@ -64,6 +64,22 @@ a.external-link {
 }
 a.external-link:hover {
     color: var(--primary-clr);
+}
+
+/* Buttons */
+a.button {
+    background-color: var(--accent-clr);
+    color: var(--tertiary-clr);
+    padding: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: 1px solid var(--tertiary-clr);
+    transition: 0.2s;
+}
+a.button:hover {
+    background-color: var(--tertiary-clr);
+    color: var(--accent-clr);
+    border: 1px solid var(--accent-clr);
 }
 
 /* Text */

@@ -67,15 +67,3 @@
     text-align: center;
     padding: 0 10px;
 }
-.Projects .projects_Container .card-galery_Section .card .card_Footer .project-view-links_Container li a {
-    background-color: var(--accent-clr);
-    color: rgb(0, 0, 0);
-    padding: 2px;
-    border-radius: 4px;
-    font-weight: bold;
-    transition: 1s;
-}
-.Projects .projects_Container .card-galery_Section .card .card_Footer .project-view-links_Container li a:hover {
-    background-color: rgb(24, 24, 24);
-    color: var(--primary-clr);
-}

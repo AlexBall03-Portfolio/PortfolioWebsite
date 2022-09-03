@@ -95,20 +95,6 @@
     width: 100%;
     padding: 20px;
 }
-.SideBar .Nav .nav_Container .hire-me-link_Container a {
-    background-color: var(--accent-clr);
-    color: rgb(0, 0, 0);
-    padding: 5px;
-    border-radius: 4px;
-    font-size: 1.1em;
-    font-weight: bold;
-    transition: 0.2s;
-}
-.SideBar .Nav .nav_Container .hire-me-link_Container a:hover {
-    background-color: var(--tertiary-clr);
-    color: var(--primary-clr);
-    border: 1px solid var(--accent-clr);
-}
 
 
 

@@ -15,7 +15,7 @@ function Nav() {
                     <li><a href="#contact" className='internal-link'><FaRegEnvelope className='icon' /> Contact</a></li>
                 </ul>
                 <div className='hire-me-link_Container'>
-                    <a href="#about" className='hire-me_Link'><GiPaperPlane /> Hire Me</a>
+                    <a href="#about" className='hire-me_Link button'><GiPaperPlane /> Hire Me</a>
                 </div>
             </div>
         </nav>
