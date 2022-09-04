@@ -1,16 +1,16 @@
 .ToTopBtn {
     position: fixed;
-    bottom: 35px;
-    right: 25px;
+    bottom: 30px;
+    right: 20px;
 }
 
 .ToTopBtn a {
     padding: 10px;
     font-size: 2em;
-    border-radius: 5px;
 }
 .ToTopBtn a:hover {
     box-shadow: 1px 1px 10px var(--accent-clr);   
+    background-color: transparent;
 }
 
 .ToTopBtn a .icon {

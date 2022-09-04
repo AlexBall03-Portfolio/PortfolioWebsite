@@ -14,10 +14,10 @@ function Skills() {
 
                 <main className='section_Main'>
                     <ul className="skill-icons_Container">
-                        <li><AiOutlineHtml5 className='icon html_Icon' /></li>
-                        <li><RiCss3Line className='icon css_Icon' /></li>
-                        <li><SiJavascript className='icon js_Icon' /></li>
-                        <li><SiReact className='icon react_Icon' /></li>
+                        <li><a href="https://www.w3schools.com/html/default.asp" rel='noreferrer' target="_black"><AiOutlineHtml5 className='icon html_Icon' /></a></li>
+                        <li><a href="https://www.w3schools.com/css/default.asp" rel='noreferrer' target="_black"><RiCss3Line className='icon css_Icon' /></a></li>
+                        <li><a href="https://www.w3schools.com/js/default.asp" rel='noreferrer' target="_black"><SiJavascript className='icon js_Icon' /></a></li>
+                        <li><a href="https://www.w3schools.com/react/default.asp" rel='noreferrer' target="_black"><SiReact className='icon react_Icon' /></a></li>
                     </ul>
                 </main>
             </div>

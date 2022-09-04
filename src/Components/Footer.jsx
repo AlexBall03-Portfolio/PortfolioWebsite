@@ -1,5 +1,4 @@
 import { AiOutlineLinkedin, AiOutlineGithub } from 'react-icons/ai';
-import { FaRegEnvelope } from 'react-icons/fa';
 import "../Styles/Footer.css";
 
 function Footer() {
