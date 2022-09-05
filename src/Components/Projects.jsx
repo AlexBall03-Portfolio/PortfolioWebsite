@@ -8,6 +8,7 @@ function Projects() {
             <div className="projects_Container">
                 <section className='heading_Section'>
                     <h2><BsCodeSlash className='icon' /> | My Projects</h2>
+                    <p>Projects coming soon!</p>
                 </section>
 
                 <section className="card-galery_Section">
