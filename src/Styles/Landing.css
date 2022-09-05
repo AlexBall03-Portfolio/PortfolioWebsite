@@ -64,6 +64,16 @@
     color: var(--accent-clr);
 }
 
+.Landing .landing_Container .banner-text_Container .call-to-action_Container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.Landing .landing_Container .banner-text_Container .call-to-action_Container .button:last-child {
+    display: none;
+}
+
 
 
 
@@ -75,5 +85,11 @@
     .Landing .landing_Container .banner-text_Container h3 {
         font-size: 1.5em;
         color: var(--accent-clr);
+    }
+}
+
+@media all and (max-width: 945px) {
+    .Landing .landing_Container .banner-text_Container .call-to-action_Container .button:last-child {
+        display: block;
     }
 }

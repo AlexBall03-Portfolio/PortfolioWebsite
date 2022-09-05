@@ -92,7 +92,7 @@ a.external-link:hover {
 }
 
 /* Buttons */
-a.button {
+a.button, button.button {
     background-color: var(--accent-clr);
     color: var(--tertiary-clr);
     padding: 5px;
@@ -101,7 +101,7 @@ a.button {
     border: 1px solid var(--tertiary-clr);
     transition: 0.2s;
 }
-a.button:hover {
+a.button:hover, button.button:hover {
     background-color: transparent;
     color: var(--accent-clr);
     border: 1px solid var(--accent-clr);

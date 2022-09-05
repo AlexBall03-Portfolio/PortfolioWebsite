@@ -13,9 +13,27 @@
 .SideBar .sidebar_Container {
     display: block;
     padding: 25px 16px;
+    height: 700px;
 }
 
+/* Close SideBar Button */
+.close-sidebar-button_Container {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 1;
+    display: none;
+}
 
+.close-sidebar-button_Container button {
+    padding: 5px;
+    font-size: 1.3em;
+}
+
+.close-sidebar-button_Container .close-sidebar_Button .icon {
+    position: relative;
+    top: 2px;
+}
 
 
 /* ----- <Header /> ----- */
@@ -24,6 +42,9 @@
     height: fit-content;
     text-align: center;
     margin-bottom: 30px;
+}
+.SideBar .Header a {
+    display: inline-block;
 }
 /* Profile Image */
 .SideBar .Header .profile-img_Section {
@@ -90,6 +111,9 @@
 .SideBar .Nav .nav_Container .nav_List li a:hover {
     color: var(--primary-clr);
 }
+/* .SideBar .Nav .nav_Container .nav_List li a.active {
+    color: var(--accent-clr);
+} */
 .SideBar .Nav .nav_Container .hire-me-link_Container {
     text-align: center;
     width: 100%;
@@ -142,5 +166,52 @@
     /* Nav Links */
     .SideBar .Nav .nav_Container .nav_List li a {
         font-size: 1em;
+    }
+}
+
+@media all and (max-width: 945px) {
+    body {
+        margin-left: 0;
+    }
+
+    /* <SideBar /> */
+    .SideBar {
+        left: -100%;
+        border: none;
+        box-shadow: none;
+        transition: 0.2s;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.908);
+    }
+    .show-sidebar {
+        left: 0;
+    }
+    .SideBar .sidebar_Container {
+        display: block;
+        padding: 8px 16px;
+    }
+    .close-sidebar-button_Container {
+        display: block;
+    }
+
+    /* <Nav /> */
+    .SideBar .Nav {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .SideBar .Nav .nav_Container .nav_List li a {
+        font-size: 1.1em;
+    }
+    .SideBar .Nav .nav_Container .nav_List li a:hover {
+        color: var(--primary-clr);
+    }
+    .SideBar .Nav .nav_Container .hire-me-link_Container {
+        margin-top: 10px;
+    }
+
+    /* <SidebarFooter /> */
+    .SideBar .SidebarFooter {
+        margin: 10px 0;
     }
 }

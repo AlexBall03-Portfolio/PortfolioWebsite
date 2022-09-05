@@ -4,7 +4,7 @@
     border: 2px inset var(--secondary-200-clr);
 }
 .Contact .contact_Container {
-    max-width: 90%;
+    max-width: 85%;
     width: 1100px;
     margin: 0 auto;
     padding: 60px 0;

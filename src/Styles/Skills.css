@@ -52,3 +52,21 @@
         font-size: 3em;
     }
 }
+ 
+@media all and (max-width: 540px) {
+    .Skills .skills_Container main .skill-icons_Container {
+        gap: 50px;
+    }
+}
+
+@media all and (max-width: 390px) {
+    .Skills .skills_Container main .skill-icons_Container {
+        gap: 30px;
+    }
+}
+
+@media all and (max-width: 300px) {
+    .Skills .skills_Container main .skill-icons_Container {
+        gap: 10px;
+    }
+}

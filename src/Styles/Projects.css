@@ -2,7 +2,7 @@
     width: 100%;
 }
 .Projects .projects_Container {
-    max-width: 90%;
+    max-width: 80%;
     width: 1100px;
     margin: 0 auto;
     padding: 60px 0;
@@ -26,21 +26,23 @@
     width: 100%;
     background-color: var(--tertiary-clr);
     border-radius: 10px;
-    box-shadow: 2px 2px 20px var(--accent-clr);
+    box-shadow: 1px 1px 10px var(--accent-clr);
     display: flex;
     flex-direction: column;
+    gap: 5px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 5px;
 }
 .Projects .projects_Container .card-galery_Section .card:hover {
     position: relative;
-    top: -2px;
-    box-shadow: 4px 10px 20px var(--accent-clr);
+    top: -1px;
+    box-shadow: 1px 5px 10px var(--accent-clr);
 }
 /* Image */
 .Projects .projects_Container .card-galery_Section .card .card-img_Container {
     width: 100%;
-    height: 50%;
+    height: 150px;
+    background-color: #7dbfe84d;
 }
 .Projects .projects_Container .card-galery_Section .card .card-img_Container img {
     width: 100%;
@@ -56,16 +58,18 @@
 }
 /* Main */
 .Projects .projects_Container .card-galery_Section .card .card_Main {
-    padding: 0 10px;
+    padding: 10px;
 }
 /* Footer */
 .Projects .projects_Container .card-galery_Section .card .card_Footer {
-    margin: auto auto 10px auto;
+    width: 100%;
+    text-align: center;
 }
 .Projects .projects_Container .card-galery_Section .card .card_Footer .project-view-links_Container li {
     display: inline-block;
     text-align: center;
-    padding: 0 10px;
+    padding: 10px 10px 5px 10px;
+    font-size: 0.9em;
 }
 
 
@@ -74,8 +78,7 @@
 /* Media Queries */
 @media all and (max-width: 1550px) {
     .Projects .projects_Container .card-galery_Section .card .card_Footer .project-view-links_Container li {
-        display: block;
-        padding: 10px 10px;
+        font-size: 1em;
     }
 
     .Projects .projects_Container .card-galery_Section .card .card_Footer {
@@ -87,12 +90,33 @@
     }
 }
 
+@media all and (max-width: 1380px) {
+    .Projects .projects_Container .card-galery_Section .card .card_Footer .project-view-links_Container {
+        width: 100%;
+    }
+    .Projects .projects_Container .card-galery_Section .card .card_Footer .project-view-links_Container li {
+        display: block;
+        width: 85%;
+        font-size: 0.9em;
+        padding: 2px 10px 2px 10px;
+        margin: 0 auto;
+    }
+    .Projects .projects_Container .card-galery_Section .card .card_Footer .project-view-links_Container li a {
+        display: block;
+        width: 100%;
+    }
+}
+
 @media all and (max-width: 1200px) {
     /* Galelry Grid */
     .Projects .projects_Container .card-galery_Section {
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        /* grid-template-rows: repeat(3, 1fr); */
-        gap: 50px;
     }
 }
+
+@media all and (max-width: 700px) {
+    /* Galelry Grid */
+    .Projects .projects_Container .card-galery_Section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}   

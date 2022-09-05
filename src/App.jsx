@@ -1,4 +1,5 @@
 import './App.css';
+import ToggleButton from './Components/ToggleButton';
 import SideBar from './Components/SideBar';
 import Landing from './Components/Landing';
 import About from './Components/About';
@@ -6,12 +7,23 @@ import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
-import ToTopBtn from './Components/ToToBtn';
+import ToTopBtn from './Components/ToTopBtn';
+import { useState } from "react";
 
 function App() {
+  const [ toggleState, setToggleState ] = useState(false);
+
+    function handleToggle() {
+        setToggleState(toggleState => !toggleState);
+    }
+
+    let setToggleClass = toggleState ? 'show-sidebar' : '';
+  
   return (
     <div className="App">
-      <SideBar />
+      <ToggleButton handleToggle={handleToggle} />
+
+      <SideBar setToggleClass={setToggleClass} handleToggle={handleToggle} />
       <Landing />
 
       <main className='site-content_Container'>

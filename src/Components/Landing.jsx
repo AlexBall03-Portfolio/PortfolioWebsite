@@ -15,8 +15,9 @@ function Landing() {
                     <h2>Alex Ball</h2>
                     <h3>Frontend Web Developer</h3>
                     <br />
-                    <div className="projects-btn_Container">
+                    <div className="call-to-action_Container">
                         <Link to='projects' spy={true} smooth={true} duration={500} className="internal-link button">Projects</Link>
+                        <Link to='contact' spy={true} smooth={true} duration={500} className="internal-link button">Hire Me</Link>
                     </div>
                 </div>
             </div>
