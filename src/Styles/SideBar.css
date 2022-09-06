@@ -41,7 +41,7 @@
     width: 100%;
     height: fit-content;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .SideBar .Header a {
     display: inline-block;
@@ -50,7 +50,7 @@
 .SideBar .Header .profile-img_Section {
     display: flex;
     justify-content: center;
-    padding: 30px 0;
+    padding: 20px 0;
 }
 .SideBar .Header .profile-img_Section .profile-img_Container {
     width: 150px;
@@ -99,6 +99,7 @@
 .SideBar .Nav .nav_Container .nav_List {
     text-align: left;
     position: relative;
+    white-space: nowrap;
 }
 .SideBar .Nav .nav_Container .nav_List li a {
     display: block;
@@ -181,7 +182,7 @@
         box-shadow: none;
         transition: 0.2s;
         width: 100%;
-        background-color: rgba(0, 0, 0, 0.908);
+        background-color: rgba(0, 0, 0, 0.93);
     }
     .show-sidebar {
         left: 0;
