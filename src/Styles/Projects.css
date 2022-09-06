@@ -42,7 +42,9 @@
 .Projects .projects_Container .card-galery_Section .card .card-img_Container {
     width: 100%;
     height: 150px;
-    background-color: #7dbfe84d;
+    background-color: #6a8ea44d;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 .Projects .projects_Container .card-galery_Section .card .card-img_Container img {
     width: 100%;

@@ -29,6 +29,7 @@ function Contact() {
             <div className="contact_Container">
                 <section className='heading_Section'>
                     <h2><FaRegEnvelope className='icon' /> | Contact Me | <GiPaperPlane /> </h2>
+                    <p>Write message like you would a normal email</p>
                 </section>
 
                 <section className='form_Section'>
