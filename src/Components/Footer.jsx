@@ -1,4 +1,5 @@
-import { AiOutlineLinkedin, AiOutlineGithub } from 'react-icons/ai';
+import Resume from "../Assets/MyResume.pdf";
+import { AiOutlineLinkedin, AiOutlineGithub, AiOutlineDownload } from 'react-icons/ai';
 import "../Styles/Footer.css";
 
 function Footer() {
@@ -21,10 +22,11 @@ function Footer() {
                     <p>2022 - {currentYear}</p>
                 </section>
 
-                <section className='social-links_Section'>
-                    <ul className="social-links_Container">
+                <section className='links_Section'>
+                    <ul className="links_Container">
                         <li><a href="https://www.linkedin.com/in/alexball03/" rel='noreferrer' target="_black"><AiOutlineLinkedin className='icon' />|LinkedIn</a></li>
                         <li><a href="https://github.com/AlexBall03" rel='noreferrer' target="_blank"><AiOutlineGithub className='icon' />|GitHub</a></li>
+                        <li><a href={Resume} rel='noreferrer' target="_blank"><AiOutlineDownload /> My Resume</a></li>
                     </ul>
                 </section>
             </div>

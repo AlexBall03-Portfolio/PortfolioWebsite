@@ -24,17 +24,17 @@
     color: var(--primary-clr);
 }
 
-.Footer .footer_Container .social-links_Section ul {
+.Footer .footer_Container .links_Section ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 30px;
 }
 
-.Footer .footer_Container .social-links_Section ul a {
+.Footer .footer_Container .links_Section ul a {
     color: var(--accent-clr);
     transition: 0.2s;
 }
-.Footer .footer_Container .social-links_Section ul a:hover {
+.Footer .footer_Container .links_Section ul a:hover {
     color: var(--primary-clr);
 }
