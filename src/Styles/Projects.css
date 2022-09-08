@@ -10,20 +10,20 @@
 
 /* Heading */
 .Projects .projects_Container .heading_Section {
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 /* Car Galery */
 .Projects .projects_Container .card-galery_Section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     gap: 50px;
 }
 
 /* Card */
 .Projects .projects_Container .card-galery_Section .card {
     width: 100%;
+    height: 380px;
     background-color: var(--tertiary-clr);
     border-radius: 10px;
     box-shadow: 1px 1px 10px var(--accent-clr);
@@ -41,7 +41,7 @@
 /* Image */
 .Projects .projects_Container .card-galery_Section .card .card-img_Container {
     width: 100%;
-    height: 180px;
+    height: 100%;
     background-color: #ffffff;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -60,19 +60,47 @@
 }
 /* Main */
 .Projects .projects_Container .card-galery_Section .card .card_Main {
-    padding-bottom: 10px;
+    overflow-y: auto;
+    padding-right: 5px;
     padding-left: 10px;
+    height: 230px;
 }
 /* Footer */
 .Projects .projects_Container .card-galery_Section .card .card_Footer {
     width: 100%;
     text-align: center;
+    margin-top: auto;
 }
 .Projects .projects_Container .card-galery_Section .card .card_Footer .project-view-links_Container li {
     display: inline-block;
     text-align: center;
     padding: 10px 10px 8px 10px;
     font-size: 0.9em;
+}
+
+
+
+
+
+
+
+.Projects .projects_Container .card-galery_Section .card .card_Main::-webkit-scrollbar {
+    width: 0.3em;
+}
+.Projects .projects_Container .card-galery_Section .card .card_Main::-webkit-scrollbar-track {
+    background-color: black;
+}
+.Projects .projects_Container .card-galery_Section .card .card_Main::-webkit-scrollbar-thumb {
+    background-color: var(--accent-clr);
+}
+.Projects .projects_Container .card-galery_Section .card .card_Main::-webkit-scrollbar-thumb:hover {
+    background-color: var(--primary-clr);
+}
+@supports (scrollbar-color: red blue) {
+    * {
+        scrollbar-color: var(--accent-clr --primary-clr) var(--primary-clr);
+        scrollbar-width: thin;
+    }
 }
 
 
@@ -121,5 +149,14 @@
     /* Galelry Grid */
     .Projects .projects_Container .card-galery_Section {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .Projects .projects_Container .card-galery_Section {
+        width: 320px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .Projects .projects_Container .card-galery_Section .card {
+        height: 410px;
     }
 }   

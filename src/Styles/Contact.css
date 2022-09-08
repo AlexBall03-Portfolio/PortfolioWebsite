@@ -27,7 +27,7 @@
     text-align: center;
 }
 .Contact form .input-group {
-    margin-bottom: 30px;   
+    margin-bottom: 20px;   
     position: relative;
 }
 .Contact form input, .Contact form textarea {
@@ -76,4 +76,13 @@
     background-color: var(--accent-clr);
     color: var(--secondary-200-clr);
     font-weight: bold;
+}
+
+
+
+/* Media Queries */
+@media all and (max-width: 700px) {
+    .Contact form .input-group {
+        margin-bottom: 15px;
+    }
 }
