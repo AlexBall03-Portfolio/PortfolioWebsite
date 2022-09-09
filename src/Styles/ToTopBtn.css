@@ -4,9 +4,11 @@
     right: 5px;
 }
 
-.ToTopBtn a {
-    padding: 5px;
-    font-size: 2em;
+.ToTopBtn .internal-link {
+    font-size: 1.8em;
+    width: 40px;
+    height: 40px;
+    background-color: #7dbfe8ba;
 }
 
 .ToTopBtn a .icon {

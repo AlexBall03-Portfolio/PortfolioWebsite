@@ -9,6 +9,7 @@
     background-color: var(--tertiary-clr);
     border-right: 1px solid var(--accent-clr);
     box-shadow: var(--shadow-right);
+    overflow-y: auto;
 }
 .SideBar .sidebar_Container {
     display: block;
@@ -157,6 +158,9 @@
     /* ----- <SideBar /> ----- */
     .SideBar {
         width: 250px;
+    }
+    .SideBar h1 {
+        font-size: 1.7em;
     }
     /* Profile Img */
     .SideBar .Header .profile-img_Section .profile-img_Container {

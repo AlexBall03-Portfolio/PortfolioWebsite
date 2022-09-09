@@ -66,9 +66,9 @@
 
 .Landing .landing_Container .banner-text_Container .call-to-action_Container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
-    gap: 10px;
+    gap: 15px;
 }
 .Landing .landing_Container .banner-text_Container .call-to-action_Container .button:last-child {
     display: none;
@@ -90,6 +90,6 @@
 
 @media all and (max-width: 945px) {
     .Landing .landing_Container .banner-text_Container .call-to-action_Container .button:last-child {
-        display: block;
+        display: inline-block;
     }
 }

@@ -7,7 +7,10 @@
 
 .ToggleButton button {
     padding: 5px;
-    font-size: 1.3em;
+    font-size: 1.2em;
+    width: 40px;
+    height: 40px;
+    background-color: #7dbfe8ba;
 }
 
 .ToggleButton .toggle_Button .icon {

@@ -27,7 +27,7 @@
     text-align: center;
 }
 .Contact form .input-group {
-    margin-bottom: 20px;   
+    margin-bottom: 30px;   
     position: relative;
 }
 .Contact form input, .Contact form textarea {
@@ -44,7 +44,7 @@
 .Contact form input:valid~label,
 .Contact form textarea:focus~label,
 .Contact form textarea:valid~label {
-    top: -35px;
+    top: -30px;
     font-size: 14px;
 }
 .Contact form input:focus,
@@ -52,7 +52,6 @@
     border-color: var(--primary-clr);
 }
 .Contact form label {
-    height: 100%;
     position: absolute;
     left: 0;
     top: 0;
@@ -83,6 +82,12 @@
 /* Media Queries */
 @media all and (max-width: 700px) {
     .Contact form .input-group {
-        margin-bottom: 15px;
+        margin-bottom: 20px;
+    }
+    .Contact form input:focus~label,
+    .Contact form input:valid~label,
+    .Contact form textarea:focus~label,
+    .Contact form textarea:valid~label {
+        top: -28px;
     }
 }

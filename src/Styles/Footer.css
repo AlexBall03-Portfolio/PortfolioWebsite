@@ -38,3 +38,18 @@
 .Footer .footer_Container .links_Section ul a:hover {
     color: var(--primary-clr);
 }
+br {
+    display: none;
+}
+
+
+
+/* Media Queries */
+@media all and (max-width: 945px) {
+    .Footer .footer_Container .links_Section ul {
+        gap: 20px;
+    }
+    br {
+        display: block;
+    }
+}
