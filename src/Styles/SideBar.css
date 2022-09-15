@@ -47,6 +47,9 @@
 .SideBar .Header a {
     display: inline-block;
 }
+.SideBar .Header a .title-accent-clr {
+    color: var(--accent-clr);
+}
 /* Profile Image */
 .SideBar .Header .profile-img_Section {
     display: flex;

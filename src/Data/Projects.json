@@ -3,7 +3,7 @@
         "id": 1,
         "imgSrc": "/images/WeatherApp.png",
         "Title": "Local Weather",
-        "Description": "This project was made to learn / practice hadling APIs. This weather app allows you to search for a city name and it will display weather info for that specified city.",
+        "Description": "This project was developed to practice handling APIs. This weather app allows you to search for a city name and it will display weather info for that specified city.",
         "LiveViewURL": "https://localweather-api-project.netlify.app/",
         "SourceCodeURL": "https://github.com/AlexBall03-Portfolio/WeatherApp"
     },

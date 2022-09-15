@@ -2,13 +2,20 @@ import Picture from "../Assets/MyProfilePic.jpeg";
 import { Link } from "react-scroll";
 
 function Header() {
-    const siteTitle = "</Alex-Ball\\>";
+    // Logo
+    const myFirstName = "Alex";
+    const myLastName = "Ball";
+    const myHyphen = "-"
+    const myPreffix = "</"
+    const mySuffix = "\\>"
     
     return (
         <header className="Header">
             <section className="logo_Section">
                 <div className="logo_Container">
-                    <Link to='home' spy={true} smooth={true} duration={500} href="/"><h1>{siteTitle}</h1></Link>
+                    <Link to='home' spy={true} smooth={true} duration={500} href="/">    
+                        <h1><span className="title-accent-clr">{myPreffix}</span>{myFirstName}<span className="title-accent-clr">{myHyphen}</span>{myLastName}<span className="title-accent-clr">{mySuffix}</span></h1>
+                    </Link>
                 </div>
             </section>
             <section className="profile-img_Section">

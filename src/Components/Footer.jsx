@@ -18,15 +18,15 @@ function Footer() {
                 </section>
 
                 <section className='site-developer_Section'>
-                    <p>Developer: Alex Ball</p>
+                    <p>Developer by: Alex Ball</p>
                     <p>2022 - {currentYear}</p>
                 </section>
 
                 <section className='links_Section'>
                     <ul className="links_Container">
-                        <li><a href="https://www.linkedin.com/in/alexball03/" rel='noreferrer' target="_black"><AiOutlineLinkedin className='icon' /><br /> |LinkedIn</a></li>
-                        <li><a href="https://github.com/AlexBall03" rel='noreferrer' target="_blank"><AiOutlineGithub className='icon' /><br /> |GitHub</a></li>
-                        <li><a href={Resume} rel='noreferrer' target="_blank"><AiOutlineDownload /><br /> |Resume</a></li>
+                        <li><a href="https://www.linkedin.com/in/alexball03/" rel='noreferrer' target="_black"><AiOutlineLinkedin className='icon' /><br />|LinkedIn</a></li>
+                        <li><a href="https://github.com/AlexBall03" rel='noreferrer' target="_blank"><AiOutlineGithub className='icon' /><br />|GitHub</a></li>
+                        <li><a href={Resume} rel='noreferrer' target="_blank"><AiOutlineDownload /><br />|Resume</a></li>
                     </ul>
                 </section>
             </div>
