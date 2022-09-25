@@ -32,6 +32,7 @@
     gap: 5px;
     margin: 0 auto;
     padding: 5px;
+    cursor: default;
 }
 .Projects .projects_Container .card-galery_Section .card:hover {
     position: relative;
@@ -67,9 +68,11 @@
 }
 /* Footer */
 .Projects .projects_Container .card-galery_Section .card .card_Footer {
-    width: 100%;
+    width: 90%;
     text-align: center;
     margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .Projects .projects_Container .card-galery_Section .card .card_Footer .project-view-links_Container li {
     display: inline-block;

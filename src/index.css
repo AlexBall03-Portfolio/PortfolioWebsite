@@ -23,7 +23,7 @@
     --secondary-100-clr: #081929;
     --secondary-200-clr: #05101a;
     --tertiary-clr: rgb(0, 0, 0);
-    --text-clr: #c8c8c8;
+    --text-clr: #c4d1d8;
     --accent-clr: #7dbfe8;
     --border: 1px solid var(--accent-clr);
     --shadow-right: 1px 0 10px var(--accent-clr);
@@ -96,7 +96,7 @@ a.button, button.button {
     background-color: var(--accent-clr);
     color: var(--tertiary-clr);
     padding: 5px;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bold;
     border: 1px solid var(--tertiary-clr);
     transition: 0.2s;
@@ -141,7 +141,7 @@ hr {
     }
 
     /* Buttons */
-    a.button {
+    /* a.button {
         font-size: 1em;
-    }
+    } */
 }

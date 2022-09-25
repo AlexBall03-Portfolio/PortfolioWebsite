@@ -63,9 +63,8 @@
     color: var(--accent-clr);
 }
 .Landing .landing_Container .banner-text_Container h3 {
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: var(--accent-clr);
-    text-decoration: underline;
 }
 
 .Landing .landing_Container .banner-text_Container .call-to-action_Container {
@@ -82,16 +81,6 @@
 
 
 /* Media Queries */
-@media all and (max-width: 1550px) {
-    .Landing .landing_Container .banner-text_Container h2 {
-        font-size: 3.4em;
-    }
-    .Landing .landing_Container .banner-text_Container h3 {
-        font-size: 1.4em;
-        color: var(--accent-clr);
-    }
-}
-
 @media all and (max-width: 945px) {
     .Landing .landing_Container .banner-text_Container .call-to-action_Container .button:last-child {
         display: inline-block;
@@ -103,8 +92,7 @@
         font-size: 3em;
     }
     .Landing .landing_Container .banner-text_Container h3 {
-        font-size: 1.3em;
-        color: var(--accent-clr);
+        font-size: 1.2em;
     }
 }
 
@@ -113,7 +101,15 @@
         font-size: 2.8em;
     }
     .Landing .landing_Container .banner-text_Container h3 {
-        font-size: 1.2em;
-        color: var(--accent-clr);
+        font-size: 1.1em;
+    }
+}
+
+@media all and (max-width: 355px) {
+    .Landing .landing_Container .banner-text_Container h2 {
+        font-size: 2.6em;
+    }
+    .Landing .landing_Container .banner-text_Container h3 {
+        font-size: 1.0em;
     }
 }

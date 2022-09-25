@@ -1,17 +1,17 @@
 .ToTopBtn {
     position: fixed;
-    bottom: 10px;
-    right: 5px;
+    bottom: 15px;
+    right: 15px;
 }
 
 .ToTopBtn .internal-link {
     font-size: 1.8em;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 47px;
     background-color: #7dbfe8ba;
 }
 
 .ToTopBtn a .icon {
     position: relative;
-    top: 4px;
+    top: 2px;
 }

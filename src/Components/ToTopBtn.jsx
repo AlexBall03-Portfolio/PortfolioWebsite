@@ -6,7 +6,11 @@ function ToTopBtn() {
     return (
         <div className="ToTopBtn">
             <div className="to-top-btn_Container">
-                <Link to='home' spy={true} smooth={true} duration={500} className='internal-link button'><BsChevronDoubleUp className='icon to-top_Icon' /></Link>
+                <Link to='home' spy={true} smooth={true} duration={500}>
+                    <button className='internal-link button'>
+                        <BsChevronDoubleUp className='icon to-top_Icon' />
+                    </button>
+                </Link>
             </div>
         </div>
     );

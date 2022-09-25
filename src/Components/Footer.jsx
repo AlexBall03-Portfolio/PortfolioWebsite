@@ -18,7 +18,7 @@ function Footer() {
                 </section>
 
                 <section className='site-developer_Section'>
-                    <p>Developer by: Alex Ball</p>
+                    <p>Developed by: Alex Ball</p>
                     <p>2022 - {currentYear}</p>
                 </section>
 

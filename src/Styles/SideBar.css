@@ -20,20 +20,16 @@
 /* Close SideBar Button */
 .close-sidebar-button_Container {
     position: absolute;
-    top: 5px;
-    left: 5px;
+    top: 15px;
+    left: 15px;
     z-index: 1;
     display: none;
 }
 
 .close-sidebar-button_Container button {
-    padding: 5px;
-    font-size: 1.3em;
-}
-
-.close-sidebar-button_Container .close-sidebar_Button .icon {
-    position: relative;
-    top: 2px;
+    font-size: 1.2em;
+    width: 30px;
+    height: 30px;
 }
 
 
@@ -147,7 +143,7 @@
 .SideBar .SidebarFooter .sidebar-footer_Container .social-links_List a {
     font-size: 2em;
     color: var(--accent-clr);
-    transition: 1s;
+    transition: 0.3s;
 }
 .SideBar .SidebarFooter .sidebar-footer_Container .social-links_List a:hover {
     color: var(--primary-clr);
