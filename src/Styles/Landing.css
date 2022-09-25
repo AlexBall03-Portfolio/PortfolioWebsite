@@ -93,7 +93,7 @@
         font-size: 3em;
     }
     .Landing .landing_Container .banner-text_Container h3 {
-        font-size: 1.2em;
+        font-size: 1.18em;
     }
 }
 
@@ -106,12 +106,16 @@
     }
 }
 
-@media all and (max-width: 355px) {
+@media all and (max-width: 360px) {
     .Landing .landing_Container .banner-text_Container h2 {
         font-size: 2.6em;
     }
     .Landing .landing_Container .banner-text_Container h3 {
-        font-size: 1em;
+        font-size: 1.02em;
+    }
+
+    .Landing .landing_Container .banner-text_Container .call-to-action_Container .button {
+        font-size: 0.9em;
     }
 }
 
@@ -120,6 +124,28 @@
         font-size: 2.5em;
     }
     .Landing .landing_Container .banner-text_Container h3 {
-        font-size: 1em;
+        font-size: 0.98em;
+    }
+
+    .Landing .landing_Container .banner-text_Container .call-to-action_Container .button {
+        font-size: 0.85em;
+    }
+}
+
+@media all and (max-width: 315px) {
+    .Landing .landing_Container .banner-text_Container h2 {
+        font-size: 2.3em;
+    }
+    .Landing .landing_Container .banner-text_Container h3 {
+        font-size: 0.91em;
+    }
+}
+
+@media all and (max-width: 295px) {
+    .Landing .landing_Container .banner-text_Container h2 {
+        font-size: 2.1em;
+    }
+    .Landing .landing_Container .banner-text_Container h3 {
+        font-size: 0.83em;
     }
 }
