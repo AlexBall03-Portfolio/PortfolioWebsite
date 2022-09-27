@@ -14,6 +14,7 @@
 /* Heading */
 .Contact .heading_Section {
     padding-bottom: 40px;
+    white-space: nowrap;
 }
 
 /* Form */
@@ -89,5 +90,17 @@
     .Contact form textarea:focus~label,
     .Contact form textarea:valid~label {
         top: -28px;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .Contact .heading_Section h2 {
+        font-size: 1.5em;
+    }
+}
+
+@media all and (max-width: 335px) {
+    .Contact .heading_Section h2 {
+        font-size: 1.3em;
     }
 }

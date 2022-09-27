@@ -8,7 +8,7 @@ function Skills() {
     return (
         <div name='skills' className="Skills">
             <div className="skills_Container">
-                <header className='section_Header'>
+                <header className='heading_Section'>
                     <h2>My Skills | <BsHddStack className='icon' /></h2>
                 </header>
 

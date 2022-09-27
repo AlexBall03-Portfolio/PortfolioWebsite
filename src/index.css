@@ -61,6 +61,10 @@ body::-webkit-scrollbar-thumb:hover, .card::-webkit-scrollbar-thumb:hover {
 }
 
 /* Headings */
+.heading_Section {
+    cursor: default;
+    white-space: nowrap;
+}
 h1,h2 {
     color: var(--primary-clr);
     font-size: 1.8em;

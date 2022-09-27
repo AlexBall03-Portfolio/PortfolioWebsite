@@ -6,7 +6,7 @@ function About() {
     return ( 
         <div name='about' className="About">
             <div className='about_Container'>
-                <header className='section_Header'>
+                <header className='heading_Section'>
                     <h2><AiOutlineInfoCircle className='icon' /> | About Me</h2>
                 </header>
                 <div className='profile-img_Container'>
