@@ -1,17 +1,21 @@
 .ToTopBtn {
-    position: fixed;
-    bottom: 15px;
-    right: 15px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
 }
 
 .ToTopBtn .internal-link {
-    font-size: 1.8em;
-    width: 45px;
-    height: 47px;
-    background-color: #7dbfe8ba;
+  font-size: 1.3em;
+  background-color: transparent;
+  color: var(--accent-clr);
+  border: 1px solid var(--accent-clr);
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.ToTopBtn a .icon {
-    position: relative;
-    top: 2px;
+.ToTopBtn .internal-link:hover {
+  background-color: #7dbfe8ba;
+  color: black;
 }

@@ -1,18 +1,28 @@
 .ToggleButton {
-    position: fixed;
-    top: 15px;
-    left: 15px;
-    z-index: 1;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  z-index: 1;
 }
 
 .ToggleButton button {
-    font-size: 1.2em;
-    width: 40px;
-    height: 40px;
-    background-color: #7dbfe8ba;
+  font-size: 1.3em;
+  background-color: transparent;
+  color: var(--accent-clr);
+  border: 1px solid var(--accent-clr);
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.ToggleButton button:hover {
+  background-color: #7dbfe8ba;
+  color: black;
 }
 
 .ToggleButton .toggle_Button .icon {
-    position: relative;
-    top: 2px;
+  position: relative;
+  top: 1px;
 }
