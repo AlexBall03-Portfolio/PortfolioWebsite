@@ -8,7 +8,7 @@ If you have any questions or comments, please put them in the Discussions Page o
 
 <br />
 
-![alt text](https://github.com/AlexBall03/PortfolioWebsite/blob/master/src/Assets/PortfolioWebsite-Screenshot.png)
+![Portfolio Website Screenshot](https://github.com/AlexBall03/PortfolioWebsite/blob/master/src/Assets/PortfolioWebsite-Screenshot.png)
 
 <br />
 <br />
