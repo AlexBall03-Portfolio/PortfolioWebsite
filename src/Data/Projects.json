@@ -1,26 +1,20 @@
 [
-    {
-        "id": 1,
-        "imgSrc": "/images/WeatherApp.png",
-        "Title": "Local Weather",
-        "Description": "This project was developed to practice handling APIs. This weather app allows you to search for a city name and it will display weather info for that specified city.",
-        "LiveViewURL": "https://localweather-api-project.netlify.app/",
-        "SourceCodeURL": "https://github.com/AlexBall03-Portfolio/WeatherApp"
-    },
-    {
-        "id": 2,
-        "imgSrc": "/images/PortfolioWebsite.png",
-        "Title": "Project Name",
-        "Description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis accusantium perferendis voluptatibus unde ut sit, blanditiis nesciunt totam doloribus illo!",
-        "LiveViewURL": "#",
-        "SourceCodeURL": "#"
-    },  
-    {
-        "id": 3,
-        "imgSrc": "/images/PortfolioWebsite.png",
-        "Title": "Project Name",
-        "Description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis accusantium perferendis voluptatibus unde ut sit, blanditiis nesciunt totam doloribus illo!",
-        "LiveViewURL": "#",
-        "SourceCodeURL": "#"
-    }
+  {
+    "id": 1,
+    "Title": "Portfolio Website",
+    "Description": "My name is Alex. I made this site to show my work as a developer. Check out my projects on GitHub. Thank you for visiting!",
+    "SourceCodeURL": "https://github.com/AlexBall03/PortfolioWebsite"
+  },
+  {
+    "id": 2,
+    "Title": "Portfolio Website",
+    "Description": "My name is Alex. I made this site to show my work as a developer. Check out my projects on GitHub. Thank you for visiting!",
+    "SourceCodeURL": "https://github.com/AlexBall03/PortfolioWebsite"
+  },
+  {
+    "id": 3,
+    "Title": "Portfolio Website",
+    "Description": "My name is Alex. I made this site to show my work as a developer. Check out my projects on GitHub. Thank you for visiting!",
+    "SourceCodeURL": "https://github.com/AlexBall03/PortfolioWebsite"
+  }
 ]

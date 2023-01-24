@@ -16,16 +16,15 @@ function About() {
         </div>
         <main className="section_Main">
           <p>
-            My name is Alex, and I love programming. I am very much a
-            perfectionist and have a lot of attention to detail, so I like
-            things to be as perfect as possible both within the UI/UX and the
-            code, or it will drive me insane!
+            My name is Alex, and I love programming, electronics, weather, music
+            and foreign languages. <br /> I am a perfectionist who loves working
+            on hard and challenging tasks. I pay a lot of attention to detail
+            and strive to make things as best as possible.
           </p>
           <br />
           <p>
-            My current Tech Stack is: HTML5, CSS3, JavaScript, React and
-            Git/GitHub. I also know a basic amount of C#/.Net and C/C++ along
-            with the basics of how compilers work.
+            What I like working with the most is C# and the .Net framework. I
+            would like to be able to build websites using ASP.Net and Blazer.
           </p>
           <br />
           <p>
