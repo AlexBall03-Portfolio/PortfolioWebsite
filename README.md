@@ -7,6 +7,10 @@
 If you have any questions or comments, please put them in the Discussions Page of this repo! I am always wanting to learn more and grow as a developer, so please let me know how I am doing and how I can improve!
 
 <br />
+
+![alt text](https://github.com/AlexBall03/PortfolioWebsite/blob/master/src/Assets/PortfolioWebsite-Screenshot.png)
+
+<br />
 <br />
 
 ---
