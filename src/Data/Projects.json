@@ -1,20 +1,20 @@
 [
   {
     "id": 1,
-    "Title": "Portfolio Website",
-    "Description": "My name is Alex. I made this site to show my work as a developer. Check out my projects on GitHub. Thank you for visiting!",
-    "SourceCodeURL": "https://github.com/AlexBall03/PortfolioWebsite"
+    "Title": "Tetris",
+    "Description": "App built to help me better understand the fundamentals of C#. The game can be played like most basic Tetris games.",
+    "SourceCodeURL": "https://github.com/AlexBall03/Tetris"
   },
   {
     "id": 2,
-    "Title": "Portfolio Website",
-    "Description": "My name is Alex. I made this site to show my work as a developer. Check out my projects on GitHub. Thank you for visiting!",
-    "SourceCodeURL": "https://github.com/AlexBall03/PortfolioWebsite"
+    "Title": "Tic Tac Toe",
+    "Description": "Application built to help me better understand the fundamentals of C#. NOTE: There is no AI built into the game.",
+    "SourceCodeURL": "https://github.com/AlexBall03/TicTacToe"
   },
   {
     "id": 3,
-    "Title": "Portfolio Website",
-    "Description": "My name is Alex. I made this site to show my work as a developer. Check out my projects on GitHub. Thank you for visiting!",
-    "SourceCodeURL": "https://github.com/AlexBall03/PortfolioWebsite"
+    "Title": "Console ATM",
+    "Description": "Application built to help me better understand the fundamentals of C#.",
+    "SourceCodeURL": "https://github.com/AlexBall03/Console-ATM-Application"
   }
 ]
