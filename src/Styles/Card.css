@@ -80,7 +80,7 @@
 
 .Card a.button {
   display: inline-block;
-  width: 40%;
+  width: fit-content;
   padding: 4px;
   background-color: transparent;
   border-color: var(--clr-accent-400);

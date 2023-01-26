@@ -1,151 +1,169 @@
 /* Landing */
 .Landing {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    border-bottom: 1px solid var(--accent-clr);
-    box-shadow: var(--shadow-bottom);
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  border-bottom: 1px solid var(--accent-clr);
+  box-shadow: var(--shadow-bottom);
 }
 .Landing .landing_Container {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
-
 
 /* Banner Image */
 .Landing .landing_Container .banner {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 .Landing .landing_Container .banner img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 /* Image Overlay */
 .Landing .landing_Container .banner .img-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.448);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.448);
 }
-
 
 /* Banner Text */
 .Landing .landing_Container .banner-text_Container {
-    position: absolute;
-    top: 20%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0),
-        rgba(0, 0, 0, 0.2),
-        rgba(0, 0, 0, 0.4),
-        rgba(0, 0, 0, 0.8),
-        rgba(0, 0, 0, 0.8),
-        rgba(0, 0, 0, 0.8),
-        rgba(0, 0, 0, 0.8),
-        rgba(0, 0, 0, 0.4),
-        rgba(0, 0, 0, 0.2),
-        rgba(0, 0, 0, 0)
-    );
-    height: 40%;
-    width: 100%;
-    white-space: nowrap;
+  position: absolute;
+  top: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0)
+  );
+  height: 40%;
+  width: 100%;
+  white-space: nowrap;
 }
 .Landing .landing_Container .banner-text_Container h2 {
-    font-size: 3.5em;
+  font-size: 3.5em;
 }
 .Landing .landing_Container .banner-text_Container h2 .title-accent-clr {
-    color: var(--accent-clr);
+  color: var(--accent-clr);
 }
 .Landing .landing_Container .banner-text_Container h3 {
-    font-size: 1.4em;
-    color: var(--accent-clr);
+  font-size: 1.4em;
+  color: var(--accent-clr);
 }
 
 .Landing .landing_Container .banner-text_Container .call-to-action_Container {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    gap: 15px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 15px;
 }
-.Landing .landing_Container .banner-text_Container .call-to-action_Container .button:last-child {
-    display: none;
+.Landing
+  .landing_Container
+  .banner-text_Container
+  .call-to-action_Container
+  .button:last-child {
+  display: none;
 }
-
-
-
 
 /* Media Queries */
 @media all and (max-width: 945px) {
-    .Landing .landing_Container .banner-text_Container .call-to-action_Container .button:last-child {
-        display: inline-block;
-    }
+  .Landing
+    .landing_Container
+    .banner-text_Container
+    .call-to-action_Container
+    .button:last-child {
+    display: inline-block;
+  }
 }
 
 @media all and (max-width: 500px) {
-    .Landing .landing_Container .banner-text_Container h2 {
-        font-size: 3em;
-    }
-    .Landing .landing_Container .banner-text_Container h3 {
-        font-size: 1.18em;
-    }
+  .Landing .landing_Container .banner-text_Container h2 {
+    font-size: 3em;
+  }
+  .Landing .landing_Container .banner-text_Container h3 {
+    font-size: 1.18em;
+  }
 }
 
 @media all and (max-width: 400px) {
-    .Landing .landing_Container .banner-text_Container h2 {
-        font-size: 2.8em;
-    }
-    .Landing .landing_Container .banner-text_Container h3 {
-        font-size: 1.1em;
-    }
+  .Landing .landing_Container .banner-text_Container h2 {
+    font-size: 2.5em;
+  }
+  .Landing .landing_Container .banner-text_Container h3 {
+    font-size: 1em;
+  }
+  .Landing
+    .landing_Container
+    .banner-text_Container
+    .call-to-action_Container
+    .button {
+    font-size: 0.9em;
+  }
 }
 
 @media all and (max-width: 360px) {
-    .Landing .landing_Container .banner-text_Container h2 {
-        font-size: 2.6em;
-    }
-    .Landing .landing_Container .banner-text_Container h3 {
-        font-size: 1.02em;
-    }
+  .Landing .landing_Container .banner-text_Container h2 {
+    font-size: 2.6em;
+  }
+  .Landing .landing_Container .banner-text_Container h3 {
+    font-size: 1.02em;
+  }
 
-    .Landing .landing_Container .banner-text_Container .call-to-action_Container .button {
-        font-size: 0.9em;
-    }
+  .Landing
+    .landing_Container
+    .banner-text_Container
+    .call-to-action_Container
+    .button {
+    font-size: 0.8em;
+  }
 }
 
 @media all and (max-width: 330px) {
-    .Landing .landing_Container .banner-text_Container h2 {
-        font-size: 2.5em;
-    }
-    .Landing .landing_Container .banner-text_Container h3 {
-        font-size: 0.98em;
-    }
+  .Landing .landing_Container .banner-text_Container h2 {
+    font-size: 2.4em;
+  }
+  .Landing .landing_Container .banner-text_Container h3 {
+    font-size: 0.95em;
+  }
 
-    .Landing .landing_Container .banner-text_Container .call-to-action_Container .button {
-        font-size: 0.85em;
-    }
+  .Landing
+    .landing_Container
+    .banner-text_Container
+    .call-to-action_Container
+    .button {
+    font-size: 0.7em;
+  }
 }
 
 @media all and (max-width: 315px) {
-    .Landing .landing_Container .banner-text_Container h2 {
-        font-size: 2.3em;
-    }
-    .Landing .landing_Container .banner-text_Container h3 {
-        font-size: 0.91em;
-    }
+  .Landing .landing_Container .banner-text_Container h2 {
+    font-size: 2.3em;
+  }
+  .Landing .landing_Container .banner-text_Container h3 {
+    font-size: 0.91em;
+  }
 }
 
 @media all and (max-width: 295px) {
-    .Landing .landing_Container .banner-text_Container h2 {
-        font-size: 2.1em;
-    }
-    .Landing .landing_Container .banner-text_Container h3 {
-        font-size: 0.83em;
-    }
+  .Landing .landing_Container .banner-text_Container h2 {
+    font-size: 2em;
+  }
+  .Landing .landing_Container .banner-text_Container h3 {
+    font-size: 0.82em;
+  }
 }
