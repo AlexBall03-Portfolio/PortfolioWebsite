@@ -17,7 +17,7 @@
   background-blend-mode: overlay;
   background-color: hsla(209, 69%, 10%, 0.586);
   padding: 8em 0 0;
-  width: 28ch;
+  width: 32ch;
   margin: 0 auto;
   cursor: default;
   border-radius: 10px;
@@ -42,6 +42,7 @@
     hsl(0 0% 0% / 0.6) 8%,
     hsl(0 0% 0% / 1)
   );
+  height: max-content;
 }
 
 .card_title {
@@ -69,13 +70,19 @@
 }
 
 .card_body {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  height: 100px;
 }
 
 .card_body p {
   color: var(--text-clr);
   font-size: 15px !important;
-  height: 85px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+p {
+  display: inline;
 }
 
 .Card a.button {
@@ -103,7 +110,7 @@
 
 @media (hover) {
   .card_content {
-    transform: translateY(78%);
+    transform: translateY(84%);
     transition: transform 400ms ease-in-out;
   }
 
@@ -145,7 +152,7 @@
   }
 }
 
-@media screen and (max-width: 1360px) {
+@media screen and (max-width: 1520px) {
   .grid_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -153,16 +160,25 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1090px) {
+  .grid_container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1040px) {
   .grid_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .grid_container {
     display: grid;
+    gap: 30px;
     grid-template-columns: 1fr;
   }
 }

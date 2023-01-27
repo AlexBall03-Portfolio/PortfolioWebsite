@@ -14,6 +14,11 @@ export default function Card() {
                 <article className="card_body">
                   <p>{data.Description}</p>
                 </article>
+                <hr />
+                <div className="specs_container">
+                  <p className="catigory">{data.Catigory} -</p>
+                  <p className="tools"> {data.Tools}</p>
+                </div>
                 <a
                   className="button"
                   target="_blank"
