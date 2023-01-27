@@ -5,7 +5,7 @@
     "Description": "Basic Tetris game. The game can be played like most basic Tetris games. Made with C#",
     "SourceCodeURL": "https://github.com/AlexBall03/Tetris",
     "Catigory": "WPF",
-    "Tools": "C#/.Net"
+    "Tools": "C#"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "Description": "Basic Tic Tac Toe game. NOTE: There is no AI built into the game. Made with C#",
     "SourceCodeURL": "https://github.com/AlexBall03/TicTacToe",
     "Catigory": "Windows Forms",
-    "Tools": "C#/.Net"
+    "Tools": "C#"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "Description": "This is not just a simple Hello World program, it's much more then that. In this app, there is DRY, Dependency Injection, Unit Testing and more! Made with C#",
     "SourceCodeURL": "https://github.com/AlexBall03/HelloWorldPro",
     "Catigory": "Console",
-    "Tools": "C#/.Net"
+    "Tools": "C#"
   },
   {
     "id": 4,
@@ -29,6 +29,6 @@
     "Description": "A basic ATM application. Made with C#",
     "SourceCodeURL": "https://github.com/AlexBall03/Console-ATM-Application",
     "Catigory": "Console",
-    "Tools": "C#/.Net"
+    "Tools": "C#"
   }
 ]
