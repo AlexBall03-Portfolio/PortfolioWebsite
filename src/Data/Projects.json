@@ -9,6 +9,14 @@
   },
   {
     "id": 2,
+    "Title": "Hangman",
+    "Description": "A basic Hangman game in the console.",
+    "SourceCodeURL": "https://github.com/AlexBall03/Hangman",
+    "Catigory": "Console",
+    "Tools": "C#"
+  },
+  {
+    "id": 3,
     "Title": "Tetris",
     "Description": "Basic Tetris game. The game can be played like most basic Tetris games.",
     "SourceCodeURL": "https://github.com/AlexBall03/Tetris",
@@ -16,16 +24,16 @@
     "Tools": "C#"
   },
   {
-    "id": 3,
+    "id": 4,
     "Title": "Tic Tac Toe",
     "Description": "Basic Tic Tac Toe game. NOTE: There is no AI built into the game.",
     "SourceCodeURL": "https://github.com/AlexBall03/TicTacToe",
-    "Catigory": "Windows Forms App",
+    "Catigory": "Windows Forms",
     "Tools": "C#"
   },
 
   {
-    "id": 4,
+    "id": 5,
     "Title": "Console ATM",
     "Description": "A basic ATM application.",
     "SourceCodeURL": "https://github.com/AlexBall03/Console-ATM-Application",
@@ -33,11 +41,11 @@
     "Tools": "C#"
   },
   {
-    "id": 5,
+    "id": 6,
     "Title": "Calculator",
     "Description": "A basic calculator app.",
     "SourceCodeURL": "https://github.com/AlexBall03/CalculatorApp",
-    "Catigory": "Windows Forms App",
+    "Catigory": "Windows Forms",
     "Tools": "C#"
   }
 ]
