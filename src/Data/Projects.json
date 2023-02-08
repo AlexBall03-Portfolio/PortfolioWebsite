@@ -1,34 +1,43 @@
 [
   {
     "id": 1,
-    "Title": "Tetris",
-    "Description": "Basic Tetris game. The game can be played like most basic Tetris games. Made with C#",
-    "SourceCodeURL": "https://github.com/AlexBall03/Tetris",
-    "Catigory": "WPF",
-    "Tools": "C#"
-  },
-  {
-    "id": 2,
-    "Title": "Tic Tac Toe",
-    "Description": "Basic Tic Tac Toe game. NOTE: There is no AI built into the game. Made with C#",
-    "SourceCodeURL": "https://github.com/AlexBall03/TicTacToe",
-    "Catigory": "Windows Forms",
-    "Tools": "C#"
-  },
-  {
-    "id": 3,
     "Title": "Hello World Pro",
-    "Description": "This is not just a simple Hello World program, it's much more then that. In this app, there is DRY, Dependency Injection, Unit Testing and more! Made with C#",
+    "Description": "This is not just a simple Hello World program, it's much more then that. In this app, there is DRY, Dependency Injection, Unit Testing and more!",
     "SourceCodeURL": "https://github.com/AlexBall03/HelloWorldPro",
     "Catigory": "Console",
     "Tools": "C#"
   },
   {
+    "id": 2,
+    "Title": "Tetris",
+    "Description": "Basic Tetris game. The game can be played like most basic Tetris games.",
+    "SourceCodeURL": "https://github.com/AlexBall03/Tetris",
+    "Catigory": "WPF",
+    "Tools": "C#"
+  },
+  {
+    "id": 3,
+    "Title": "Tic Tac Toe",
+    "Description": "Basic Tic Tac Toe game. NOTE: There is no AI built into the game.",
+    "SourceCodeURL": "https://github.com/AlexBall03/TicTacToe",
+    "Catigory": "Windows Forms App",
+    "Tools": "C#"
+  },
+
+  {
     "id": 4,
     "Title": "Console ATM",
-    "Description": "A basic ATM application. Made with C#",
+    "Description": "A basic ATM application.",
     "SourceCodeURL": "https://github.com/AlexBall03/Console-ATM-Application",
     "Catigory": "Console",
+    "Tools": "C#"
+  },
+  {
+    "id": 5,
+    "Title": "Calculator",
+    "Description": "A basic calculator app.",
+    "SourceCodeURL": "https://github.com/AlexBall03/CalculatorApp",
+    "Catigory": "Windows Forms App",
     "Tools": "C#"
   }
 ]

@@ -43,10 +43,10 @@ function Footer() {
                 target="_black"
               >
                 <AiOutlineLinkedin className="icon" />
-                <br />
                 |LinkedIn
               </a>
-            </li>
+            </li>{" "}
+            <br />
             <li>
               <a
                 href="https://github.com/AlexBall03"
@@ -54,17 +54,17 @@ function Footer() {
                 target="_blank"
               >
                 <AiOutlineGithub className="icon" />
-                <br />
                 |GitHub
               </a>
-            </li>
+            </li>{" "}
+            <br />
             <li>
               <a href={Resume} rel="noreferrer" target="_blank">
                 <AiOutlineDownload />
-                <br />
                 |Resume
               </a>
-            </li>
+            </li>{" "}
+            <br />
           </ul>
         </section>
       </div>
